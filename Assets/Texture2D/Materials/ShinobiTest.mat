@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ShinobiTest
-  m_Shader: {fileID: 4800000, guid: 7a3741bf872739a428b051a973d0bd05, type: 3}
+  m_Shader: {fileID: 4800000, guid: dfa8ea91dc6081f46baf8d36784e6f44, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -22,6 +22,9 @@ Material:
         m_Texture: {fileID: 2800000, guid: a003ba0f2129d4844a69d514a43ab952, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - _Outline: 0.002
     m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
