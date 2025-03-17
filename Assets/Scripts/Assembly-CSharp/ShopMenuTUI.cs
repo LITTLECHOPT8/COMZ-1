@@ -110,24 +110,24 @@ public class ShopMenuTUI : MonoBehaviour, TUIHandler
 	{
 		switch (chosen_shop)
 		{
-		case ShopMenu.AvatarShop:
-			chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_avatar;
-			break;
-		case ShopMenu.WeaponShop1:
-			chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_weapons[0];
-			break;
-		case ShopMenu.WeaponShop2:
-			chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_weapons[1];
-			break;
-		case ShopMenu.WeaponShop3:
-			chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_weapons[2];
-			break;
-		case ShopMenu.ItemShop1:
-			chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_items[0];
-			break;
-		case ShopMenu.ItemShop2:
-			chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_items[1];
-			break;
+			case ShopMenu.AvatarShop:
+				chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_avatar;
+				break;
+			case ShopMenu.WeaponShop1:
+				chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_weapons[0];
+				break;
+			case ShopMenu.WeaponShop2:
+				chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_weapons[1];
+				break;
+			case ShopMenu.WeaponShop3:
+				chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_weapons[2];
+				break;
+			case ShopMenu.ItemShop1:
+				chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_items[0];
+				break;
+			case ShopMenu.ItemShop2:
+				chosen_frame.GetComponent<ChosenFrameManager>().ChosenObject = button_items[1];
+				break;
 		}
 	}
 

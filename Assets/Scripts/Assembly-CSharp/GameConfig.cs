@@ -99,13 +99,13 @@ public class GameConfig
 		Stream stream = null;
 		//if (path != null)
 		//{
-			//path = Application.dataPath + path;
-			//if (!Directory.Exists(path))
-			//{
-			//	Directory.CreateDirectory(path);
-			//}
-			//stream = File.Open(path + "config.xml", FileMode.Open);
-			xmlReader = XmlReader.Create(new StringReader(Resources.Load<TextAsset>("config").text));
+		//path = Application.dataPath + path;
+		//if (!Directory.Exists(path))
+		//{
+		//	Directory.CreateDirectory(path);
+		//}
+		//stream = File.Open(path + "config.xml", FileMode.Open);
+		xmlReader = XmlReader.Create(new StringReader(Resources.Load<TextAsset>("config").text));
 		//}
 		//else
 		//{
@@ -118,50 +118,50 @@ public class GameConfig
 		{
 			switch (xmlReader.NodeType)
 			{
-			case XmlNodeType.Element:
-				if (xmlReader.Name == "Global")
-				{
-					LoadGlobalConf(xmlReader);
-				}
-				else if (xmlReader.Name == "Avatar")
-				{
-					LoadAvatarConf(xmlReader);
-				}
-				else if (xmlReader.Name.StartsWith("Monster"))
-				{
-					LoadMonstersConf(xmlReader);
-				}
-				else if (xmlReader.Name == "Weapon")
-				{
-					weaponConfig = new WeaponConfig();
-					LoadWeaponConf(xmlReader, weaponConfig);
-					weaponConfTable.Add(weaponConfig);
-				}
-				else if (xmlReader.Name == "AttributesUpgrade")
-				{
-					LoadUpgradeConf(xmlReader, weaponConfig);
-				}
-				else if (xmlReader.Name == "VSDamagePara")
-				{
-					LoadVSWeaponDamagePara(xmlReader, weaponConfig);
-				}
-				else if (xmlReader.Name == "VSFrequencyPara")
-				{
-					LoadVSWeaponFrequencyPara(xmlReader, weaponConfig);
-				}
-				else if (xmlReader.Name == "Item")
-				{
-					itemsConfTable.Add(LoadItemsConf(xmlReader));
-				}
-				else if (xmlReader.Name.StartsWith("Instance"))
-				{
-					LoadInstanceModeConfig(xmlReader);
-				}
-				else if (xmlReader.Name == "BossMap")
-				{
-					LoadCoopBossConf(xmlReader);
-				}
-				break;
+				case XmlNodeType.Element:
+					if (xmlReader.Name == "Global")
+					{
+						LoadGlobalConf(xmlReader);
+					}
+					else if (xmlReader.Name == "Avatar")
+					{
+						LoadAvatarConf(xmlReader);
+					}
+					else if (xmlReader.Name.StartsWith("Monster"))
+					{
+						LoadMonstersConf(xmlReader);
+					}
+					else if (xmlReader.Name == "Weapon")
+					{
+						weaponConfig = new WeaponConfig();
+						LoadWeaponConf(xmlReader, weaponConfig);
+						weaponConfTable.Add(weaponConfig);
+					}
+					else if (xmlReader.Name == "AttributesUpgrade")
+					{
+						LoadUpgradeConf(xmlReader, weaponConfig);
+					}
+					else if (xmlReader.Name == "VSDamagePara")
+					{
+						LoadVSWeaponDamagePara(xmlReader, weaponConfig);
+					}
+					else if (xmlReader.Name == "VSFrequencyPara")
+					{
+						LoadVSWeaponFrequencyPara(xmlReader, weaponConfig);
+					}
+					else if (xmlReader.Name == "Item")
+					{
+						itemsConfTable.Add(LoadItemsConf(xmlReader));
+					}
+					else if (xmlReader.Name.StartsWith("Instance"))
+					{
+						LoadInstanceModeConfig(xmlReader);
+					}
+					else if (xmlReader.Name == "BossMap")
+					{
+						LoadCoopBossConf(xmlReader);
+					}
+					break;
 			}
 		}
 		CalculateItemDropRate();
@@ -232,60 +232,60 @@ public class GameConfig
 		{
 			switch (reader.Name)
 			{
-			case "name":
-			{
-				for (int i = 0; i < 20; i++)
-				{
-					if (((AvatarType)i).ToString() == reader.Value)
+				case "name":
 					{
-						avatarConfig.name = (AvatarType)i;
-						if (avatarConfig.name >= AvatarType.HumanPixel)
+						for (int i = 0; i < 23; i++)
 						{
-							avatarConfig.isPixel = true;
+							if (((AvatarType)i).ToString() == reader.Value)
+							{
+								avatarConfig.name = (AvatarType)i;
+								if (avatarConfig.name >= AvatarType.HumanPixel)
+								{
+									avatarConfig.isPixel = true;
+								}
+								else
+								{
+									avatarConfig.isPixel = false;
+								}
+								break;
+							}
 						}
-						else
-						{
-							avatarConfig.isPixel = false;
-						}
+						avatarConfTable.Add(avatarConfig.name, avatarConfig);
 						break;
 					}
-				}
-				avatarConfTable.Add(avatarConfig.name, avatarConfig);
-				break;
-			}
-			case "damageInitial":
-				avatarConfig.damageInitial = float.Parse(reader.Value);
-				break;
-			case "damageFinal":
-				avatarConfig.damageFinal = float.Parse(reader.Value);
-				break;
-			case "hpInitial":
-				avatarConfig.hpInitial = float.Parse(reader.Value);
-				break;
-			case "hpFinal":
-				avatarConfig.hpFinal = float.Parse(reader.Value);
-				break;
-			case "speedInitial":
-				avatarConfig.speedInitial = float.Parse(reader.Value);
-				break;
-			case "speedFinal":
-				avatarConfig.speedFinal = float.Parse(reader.Value);
-				break;
-			case "isCrystalBuy":
-				avatarConfig.isCrystalBuy = int.Parse(reader.Value) == 1;
-				break;
-			case "unlockDay":
-				avatarConfig.unlockDay = int.Parse(reader.Value);
-				break;
-			case "price":
-				avatarConfig.price = int.Parse(reader.Value);
-				break;
-			case "hpWeight":
-				avatarConfig.hpBuyWeight = float.Parse(reader.Value);
-				break;
-			case "hpPriceWeight":
-				avatarConfig.hpBuyPriceWeight = float.Parse(reader.Value);
-				break;
+				case "damageInitial":
+					avatarConfig.damageInitial = float.Parse(reader.Value);
+					break;
+				case "damageFinal":
+					avatarConfig.damageFinal = float.Parse(reader.Value);
+					break;
+				case "hpInitial":
+					avatarConfig.hpInitial = float.Parse(reader.Value);
+					break;
+				case "hpFinal":
+					avatarConfig.hpFinal = float.Parse(reader.Value);
+					break;
+				case "speedInitial":
+					avatarConfig.speedInitial = float.Parse(reader.Value);
+					break;
+				case "speedFinal":
+					avatarConfig.speedFinal = float.Parse(reader.Value);
+					break;
+				case "isCrystalBuy":
+					avatarConfig.isCrystalBuy = int.Parse(reader.Value) == 1;
+					break;
+				case "unlockDay":
+					avatarConfig.unlockDay = int.Parse(reader.Value);
+					break;
+				case "price":
+					avatarConfig.price = int.Parse(reader.Value);
+					break;
+				case "hpWeight":
+					avatarConfig.hpBuyWeight = float.Parse(reader.Value);
+					break;
+				case "hpPriceWeight":
+					avatarConfig.hpBuyPriceWeight = float.Parse(reader.Value);
+					break;
 			}
 		}
 	}
@@ -337,121 +337,121 @@ public class GameConfig
 	{
 		switch (reader.Name)
 		{
-		case "Monster_Hp_Computing":
-			if (reader.HasAttributes)
-			{
-				while (reader.MoveToNextAttribute())
+			case "Monster_Hp_Computing":
+				if (reader.HasAttributes)
 				{
-					MonsterParametersConfig.hpParameters.Add(reader.Name, float.Parse(reader.Value));
+					while (reader.MoveToNextAttribute())
+					{
+						MonsterParametersConfig.hpParameters.Add(reader.Name, float.Parse(reader.Value));
+					}
 				}
-			}
-			break;
-		case "Monster_Damage_Computing":
-			if (reader.HasAttributes)
-			{
-				while (reader.MoveToNextAttribute())
-				{
-					MonsterParametersConfig.damageParameters.Add(reader.Name, float.Parse(reader.Value));
-				}
-			}
-			break;
-		case "Monster_Loot_Computing":
-		{
-			Dictionary<string, float> dictionary = new Dictionary<string, float>();
-			if (reader.HasAttributes)
-			{
-				while (reader.MoveToNextAttribute())
-				{
-					dictionary.Add(reader.Name, float.Parse(reader.Value));
-				}
-			}
-			float num = (Mathf.Pow((dictionary["y1"] - dictionary["c"]) / (dictionary["y2"] - dictionary["c"]), 1f / dictionary["k"]) * dictionary["x2"] - dictionary["x1"]) / (Mathf.Pow((dictionary["y1"] - dictionary["c"]) / (dictionary["y2"] - dictionary["c"]), 1f / dictionary["k"]) - 1f);
-			float value = (dictionary["y2"] - dictionary["c"]) / Mathf.Pow(dictionary["x2"] - num, dictionary["k"]);
-			MonsterParametersConfig.lootParameters.Add("a", value);
-			MonsterParametersConfig.lootParameters.Add("b", num);
-			MonsterParametersConfig.lootParameters.Add("c", dictionary["c"]);
-			MonsterParametersConfig.lootParameters.Add("k", dictionary["k"]);
-			MonsterParametersConfig.lootParameters.Add("woodCash", dictionary["woodCash"]);
-			break;
-		}
-		case "Monster_Hunting_Computing":
-			if (reader.HasAttributes)
-			{
-				while (reader.MoveToNextAttribute())
-				{
-					MonsterParametersConfig.huntingParameters.Add(reader.Name, float.Parse(reader.Value));
-				}
-			}
-			break;
-		case "Monster_Endless_Computing":
-			if (reader.HasAttributes)
-			{
-				while (reader.MoveToNextAttribute())
-				{
-					MonsterParametersConfig.endlessParameters.Add(reader.Name, float.Parse(reader.Value));
-				}
-			}
-			break;
-		case "Monster_MaxLoot_Expected_Computing":
-			if (reader.HasAttributes)
-			{
-				while (reader.MoveToNextAttribute())
-				{
-					MonsterParametersConfig.maxLootParameters.Add(reader.Name, float.Parse(reader.Value));
-				}
-			}
-			break;
-		case "Monster":
-		{
-			MonsterConfig monsterConfig = new MonsterConfig();
-			if (!reader.HasAttributes)
-			{
 				break;
-			}
-			while (reader.MoveToNextAttribute())
-			{
-				switch (reader.Name)
+			case "Monster_Damage_Computing":
+				if (reader.HasAttributes)
 				{
-				case "name":
-					monsterConfTable.Add(reader.Value, monsterConfig);
-					break;
-				case "hpWeight":
-					monsterConfig.hpWeight = float.Parse(reader.Value);
-					break;
-				case "damageWeight":
-					monsterConfig.damageWeight = float.Parse(reader.Value);
-					break;
-				case "lootWeight":
-					monsterConfig.lootWeight = float.Parse(reader.Value);
-					break;
-				case "attackFrequency":
-					monsterConfig.attackFrequency = float.Parse(reader.Value);
-					break;
-				case "walkSpeed":
-					monsterConfig.walkSpeed = float.Parse(reader.Value);
-					break;
-				case "rushSpeed":
-					monsterConfig.rushSpeed = float.Parse(reader.Value);
-					break;
-				case "rushDamage":
-					monsterConfig.rushDamage = float.Parse(reader.Value);
-					break;
-				case "rushAttack":
-					monsterConfig.rushAttackDamage = float.Parse(reader.Value);
-					break;
-				case "rushRate":
-					monsterConfig.rushInterval = float.Parse(reader.Value);
-					break;
-				case "dashSpeed":
-					monsterConfig.dashSpeed = float.Parse(reader.Value);
-					break;
-				case "dashDamage":
-					monsterConfig.dashDamage = float.Parse(reader.Value);
+					while (reader.MoveToNextAttribute())
+					{
+						MonsterParametersConfig.damageParameters.Add(reader.Name, float.Parse(reader.Value));
+					}
+				}
+				break;
+			case "Monster_Loot_Computing":
+				{
+					Dictionary<string, float> dictionary = new Dictionary<string, float>();
+					if (reader.HasAttributes)
+					{
+						while (reader.MoveToNextAttribute())
+						{
+							dictionary.Add(reader.Name, float.Parse(reader.Value));
+						}
+					}
+					float num = (Mathf.Pow((dictionary["y1"] - dictionary["c"]) / (dictionary["y2"] - dictionary["c"]), 1f / dictionary["k"]) * dictionary["x2"] - dictionary["x1"]) / (Mathf.Pow((dictionary["y1"] - dictionary["c"]) / (dictionary["y2"] - dictionary["c"]), 1f / dictionary["k"]) - 1f);
+					float value = (dictionary["y2"] - dictionary["c"]) / Mathf.Pow(dictionary["x2"] - num, dictionary["k"]);
+					MonsterParametersConfig.lootParameters.Add("a", value);
+					MonsterParametersConfig.lootParameters.Add("b", num);
+					MonsterParametersConfig.lootParameters.Add("c", dictionary["c"]);
+					MonsterParametersConfig.lootParameters.Add("k", dictionary["k"]);
+					MonsterParametersConfig.lootParameters.Add("woodCash", dictionary["woodCash"]);
 					break;
 				}
-			}
-			break;
-		}
+			case "Monster_Hunting_Computing":
+				if (reader.HasAttributes)
+				{
+					while (reader.MoveToNextAttribute())
+					{
+						MonsterParametersConfig.huntingParameters.Add(reader.Name, float.Parse(reader.Value));
+					}
+				}
+				break;
+			case "Monster_Endless_Computing":
+				if (reader.HasAttributes)
+				{
+					while (reader.MoveToNextAttribute())
+					{
+						MonsterParametersConfig.endlessParameters.Add(reader.Name, float.Parse(reader.Value));
+					}
+				}
+				break;
+			case "Monster_MaxLoot_Expected_Computing":
+				if (reader.HasAttributes)
+				{
+					while (reader.MoveToNextAttribute())
+					{
+						MonsterParametersConfig.maxLootParameters.Add(reader.Name, float.Parse(reader.Value));
+					}
+				}
+				break;
+			case "Monster":
+				{
+					MonsterConfig monsterConfig = new MonsterConfig();
+					if (!reader.HasAttributes)
+					{
+						break;
+					}
+					while (reader.MoveToNextAttribute())
+					{
+						switch (reader.Name)
+						{
+							case "name":
+								monsterConfTable.Add(reader.Value, monsterConfig);
+								break;
+							case "hpWeight":
+								monsterConfig.hpWeight = float.Parse(reader.Value);
+								break;
+							case "damageWeight":
+								monsterConfig.damageWeight = float.Parse(reader.Value);
+								break;
+							case "lootWeight":
+								monsterConfig.lootWeight = float.Parse(reader.Value);
+								break;
+							case "attackFrequency":
+								monsterConfig.attackFrequency = float.Parse(reader.Value);
+								break;
+							case "walkSpeed":
+								monsterConfig.walkSpeed = float.Parse(reader.Value);
+								break;
+							case "rushSpeed":
+								monsterConfig.rushSpeed = float.Parse(reader.Value);
+								break;
+							case "rushDamage":
+								monsterConfig.rushDamage = float.Parse(reader.Value);
+								break;
+							case "rushAttack":
+								monsterConfig.rushAttackDamage = float.Parse(reader.Value);
+								break;
+							case "rushRate":
+								monsterConfig.rushInterval = float.Parse(reader.Value);
+								break;
+							case "dashSpeed":
+								monsterConfig.dashSpeed = float.Parse(reader.Value);
+								break;
+							case "dashDamage":
+								monsterConfig.dashDamage = float.Parse(reader.Value);
+								break;
+						}
+					}
+					break;
+				}
 		}
 	}
 
@@ -466,19 +466,19 @@ public class GameConfig
 		{
 			switch (reader.Name)
 			{
-			case "name":
-				coopBossConfig.map = "Zombie3D_" + reader.Value;
-				coopBossConfTable.Add(coopBossConfig);
-				break;
-			case "day":
-				coopBossConfig.day = int.Parse(reader.Value);
-				break;
-			case "bossDamage":
-				coopBossConfig.bossDamage = float.Parse(reader.Value);
-				break;
-			case "bossHp":
-				coopBossConfig.bossHp = double.Parse(reader.Value);
-				break;
+				case "name":
+					coopBossConfig.map = "Zombie3D_" + reader.Value;
+					coopBossConfTable.Add(coopBossConfig);
+					break;
+				case "day":
+					coopBossConfig.day = int.Parse(reader.Value);
+					break;
+				case "bossDamage":
+					coopBossConfig.bossDamage = float.Parse(reader.Value);
+					break;
+				case "bossHp":
+					coopBossConfig.bossHp = double.Parse(reader.Value);
+					break;
 			}
 		}
 	}
@@ -492,28 +492,28 @@ public class GameConfig
 			{
 				switch (reader.Name)
 				{
-				case "type":
-					itemConfig.iType = Item.GetItemTypeByName(reader.Value);
-					break;
-				case "price":
-					itemConfig.price = int.Parse(reader.Value);
-					break;
-				case "isCrystalBuy":
-					if (int.Parse(reader.Value) == 1)
-					{
-						itemConfig.isCrystalBuy = true;
-					}
-					else
-					{
-						itemConfig.isCrystalBuy = false;
-					}
-					break;
-				case "buyCount":
-					itemConfig.buyCount = int.Parse(reader.Value);
-					break;
-				case "lastDuration":
-					itemConfig.lastDuration = float.Parse(reader.Value);
-					break;
+					case "type":
+						itemConfig.iType = Item.GetItemTypeByName(reader.Value);
+						break;
+					case "price":
+						itemConfig.price = int.Parse(reader.Value);
+						break;
+					case "isCrystalBuy":
+						if (int.Parse(reader.Value) == 1)
+						{
+							itemConfig.isCrystalBuy = true;
+						}
+						else
+						{
+							itemConfig.isCrystalBuy = false;
+						}
+						break;
+					case "buyCount":
+						itemConfig.buyCount = int.Parse(reader.Value);
+						break;
+					case "lastDuration":
+						itemConfig.lastDuration = float.Parse(reader.Value);
+						break;
 				}
 			}
 		}
@@ -524,81 +524,81 @@ public class GameConfig
 	{
 		switch (reader.Name)
 		{
-		case "Instance_ItemsConfig":
-		{
-			if (!reader.HasAttributes)
-			{
+			case "Instance_ItemsConfig":
+				{
+					if (!reader.HasAttributes)
+					{
+						break;
+					}
+					Dictionary<ItemType, int> dictionary = new Dictionary<ItemType, int>();
+					ItemType key = ItemType.NONE;
+					int num = 0;
+					while (reader.MoveToNextAttribute())
+					{
+						if (reader.Name.StartsWith("name"))
+						{
+							key = Item.GetItemTypeByName(reader.Value);
+						}
+						else if (reader.Name.StartsWith("count"))
+						{
+							num = int.Parse(reader.Value);
+							dictionary.Add(key, num);
+						}
+					}
+					InstanceModeConfig.BonusItems.Add(dictionary);
+					break;
+				}
+			case "Instance_Enemy_Spawn_Control":
+				if (reader.HasAttributes)
+				{
+					while (reader.MoveToNextAttribute())
+					{
+						InstanceModeConfig.EnemySpawnControl.Add(reader.Name, float.Parse(reader.Value));
+					}
+				}
 				break;
-			}
-			Dictionary<ItemType, int> dictionary = new Dictionary<ItemType, int>();
-			ItemType key = ItemType.NONE;
-			int num = 0;
-			while (reader.MoveToNextAttribute())
-			{
-				if (reader.Name.StartsWith("name"))
+			case "Instance_Loot_Adjust":
+				if (!reader.HasAttributes)
 				{
-					key = Item.GetItemTypeByName(reader.Value);
+					break;
 				}
-				else if (reader.Name.StartsWith("count"))
-				{
-					num = int.Parse(reader.Value);
-					dictionary.Add(key, num);
-				}
-			}
-			InstanceModeConfig.BonusItems.Add(dictionary);
-			break;
-		}
-		case "Instance_Enemy_Spawn_Control":
-			if (reader.HasAttributes)
-			{
 				while (reader.MoveToNextAttribute())
 				{
-					InstanceModeConfig.EnemySpawnControl.Add(reader.Name, float.Parse(reader.Value));
+					if (reader.Name == "cashAdjust")
+					{
+						InstanceModeConfig.CashAdjust = float.Parse(reader.Value);
+					}
+					else if (reader.Name == "expAdjust")
+					{
+						InstanceModeConfig.ExpAdjust = float.Parse(reader.Value);
+					}
+					else if (reader.Name == "scoreAdjust")
+					{
+						InstanceModeConfig.ScoreAdjust = float.Parse(reader.Value);
+					}
 				}
-			}
-			break;
-		case "Instance_Loot_Adjust":
-			if (!reader.HasAttributes)
-			{
 				break;
-			}
-			while (reader.MoveToNextAttribute())
-			{
-				if (reader.Name == "cashAdjust")
+			case "Instance_Time_Control":
+				if (!reader.HasAttributes)
 				{
-					InstanceModeConfig.CashAdjust = float.Parse(reader.Value);
+					break;
 				}
-				else if (reader.Name == "expAdjust")
+				while (reader.MoveToNextAttribute())
 				{
-					InstanceModeConfig.ExpAdjust = float.Parse(reader.Value);
+					if (reader.Name == "timeBase")
+					{
+						InstanceModeConfig.TimeInitial = float.Parse(reader.Value);
+					}
+					else if (reader.Name == "timeAdd")
+					{
+						InstanceModeConfig.TimeAdded = float.Parse(reader.Value);
+					}
+					else if (reader.Name == "bossWaveInterval")
+					{
+						InstanceModeConfig.BossWaveInterval = int.Parse(reader.Value);
+					}
 				}
-				else if (reader.Name == "scoreAdjust")
-				{
-					InstanceModeConfig.ScoreAdjust = float.Parse(reader.Value);
-				}
-			}
-			break;
-		case "Instance_Time_Control":
-			if (!reader.HasAttributes)
-			{
 				break;
-			}
-			while (reader.MoveToNextAttribute())
-			{
-				if (reader.Name == "timeBase")
-				{
-					InstanceModeConfig.TimeInitial = float.Parse(reader.Value);
-				}
-				else if (reader.Name == "timeAdd")
-				{
-					InstanceModeConfig.TimeAdded = float.Parse(reader.Value);
-				}
-				else if (reader.Name == "bossWaveInterval")
-				{
-					InstanceModeConfig.BossWaveInterval = int.Parse(reader.Value);
-				}
-			}
-			break;
 		}
 	}
 
@@ -730,27 +730,27 @@ public class GameConfig
 		{
 			switch (reader.Name)
 			{
-			case "damageInitial":
-				weaponConf.damageInitial = float.Parse(reader.Value);
-				break;
-			case "damageFinal":
-				weaponConf.damageFinal = float.Parse(reader.Value);
-				break;
-			case "frequencyInitial":
-				weaponConf.frequencyInitial = float.Parse(reader.Value);
-				break;
-			case "frequencyFinal":
-				weaponConf.frequencyFinal = float.Parse(reader.Value);
-				break;
-			case "accuracyInitial":
-				weaponConf.accuracyInitial = float.Parse(reader.Value);
-				break;
-			case "accuracyFinal":
-				weaponConf.accuracyFinal = float.Parse(reader.Value);
-				break;
-			case "priceWeight":
-				weaponConf.upgradePriceWeight = float.Parse(reader.Value);
-				break;
+				case "damageInitial":
+					weaponConf.damageInitial = float.Parse(reader.Value);
+					break;
+				case "damageFinal":
+					weaponConf.damageFinal = float.Parse(reader.Value);
+					break;
+				case "frequencyInitial":
+					weaponConf.frequencyInitial = float.Parse(reader.Value);
+					break;
+				case "frequencyFinal":
+					weaponConf.frequencyFinal = float.Parse(reader.Value);
+					break;
+				case "accuracyInitial":
+					weaponConf.accuracyInitial = float.Parse(reader.Value);
+					break;
+				case "accuracyFinal":
+					weaponConf.accuracyFinal = float.Parse(reader.Value);
+					break;
+				case "priceWeight":
+					weaponConf.upgradePriceWeight = float.Parse(reader.Value);
+					break;
 			}
 		}
 	}
@@ -768,7 +768,7 @@ public class GameConfig
 		//		Directory.CreateDirectory(path);
 		//	}
 		//	stream = File.Open(path + "config.xml", FileMode.Open);
-			xmlReader = XmlReader.Create(new StringReader(Resources.Load<TextAsset>("config").text));
+		xmlReader = XmlReader.Create(new StringReader(Resources.Load<TextAsset>("config").text));
 		//}
 		//else
 		//{
@@ -824,7 +824,7 @@ public class GameConfig
 		//		Directory.CreateDirectory(path);
 		//	}
 		//	stream = File.Open(path + "config.xml", FileMode.Open);
-			xmlReader = XmlReader.Create(new StringReader(Resources.Load<TextAsset>("config").text));
+		xmlReader = XmlReader.Create(new StringReader(Resources.Load<TextAsset>("config").text));
 		//}
 		//else
 		//{
@@ -838,28 +838,28 @@ public class GameConfig
 		{
 			switch (xmlReader.NodeType)
 			{
-			case XmlNodeType.Element:
-				if (xmlReader.Name == "VSAchievement")
-				{
-					vsAchievementCfg = new VsAchievementCfg();
-					LoadVsAchieveMentConf(xmlReader, vsAchievementCfg);
-					vsAchievementCfg.m_index = num++;
-					vsAchievementCfg.finish = GameApp.GetInstance().GetGameState().VsAchievementData[vsAchievementCfg.m_index] == 1;
-					Vs_AchievementConfTable.Add(vsAchievementCfg);
-				}
-				else if (xmlReader.Name == "VSA_Reward")
-				{
-					LoadVsAchieveMentConfReward(xmlReader, vsAchievementCfg);
-				}
-				else if (xmlReader.Name == "VSA_Time")
-				{
-					LoadVsAchieveMentConfTime(xmlReader, vsAchievementCfg);
-				}
-				else if (xmlReader.Name == "VSA_Monster")
-				{
-					LoadVsAchieveMentConfMonster(xmlReader, vsAchievementCfg);
-				}
-				break;
+				case XmlNodeType.Element:
+					if (xmlReader.Name == "VSAchievement")
+					{
+						vsAchievementCfg = new VsAchievementCfg();
+						LoadVsAchieveMentConf(xmlReader, vsAchievementCfg);
+						vsAchievementCfg.m_index = num++;
+						vsAchievementCfg.finish = GameApp.GetInstance().GetGameState().VsAchievementData[vsAchievementCfg.m_index] == 1;
+						Vs_AchievementConfTable.Add(vsAchievementCfg);
+					}
+					else if (xmlReader.Name == "VSA_Reward")
+					{
+						LoadVsAchieveMentConfReward(xmlReader, vsAchievementCfg);
+					}
+					else if (xmlReader.Name == "VSA_Time")
+					{
+						LoadVsAchieveMentConfTime(xmlReader, vsAchievementCfg);
+					}
+					else if (xmlReader.Name == "VSA_Monster")
+					{
+						LoadVsAchieveMentConfMonster(xmlReader, vsAchievementCfg);
+					}
+					break;
 			}
 		}
 		Debug.Log("vs achi count:" + num);
@@ -887,21 +887,21 @@ public class GameConfig
 		{
 			switch (reader.Name)
 			{
-			case "type":
-				AchievementConf.SetTypeWith(reader.Value);
-				break;
-			case "content":
-				AchievementConf.content = reader.Value;
-				break;
-			case "class":
-				AchievementConf.m_class = reader.Value;
-				break;
-			case "level":
-				AchievementConf.level = int.Parse(reader.Value);
-				break;
-			case "icon":
-				AchievementConf.icon = reader.Value;
-				break;
+				case "type":
+					AchievementConf.SetTypeWith(reader.Value);
+					break;
+				case "content":
+					AchievementConf.content = reader.Value;
+					break;
+				case "class":
+					AchievementConf.m_class = reader.Value;
+					break;
+				case "level":
+					AchievementConf.level = int.Parse(reader.Value);
+					break;
+				case "icon":
+					AchievementConf.icon = reader.Value;
+					break;
 			}
 		}
 	}
@@ -916,34 +916,34 @@ public class GameConfig
 		{
 			switch (reader.Name)
 			{
-			case "map":
-				AchievementConf.map = "Zombie3D_" + reader.Value;
-				break;
-			case "count":
-				AchievementConf.gameCount = int.Parse(reader.Value);
-				if (AchievementConf.gameCount == AchievementConf.finishGameCount)
-				{
-					AchievementConf.finish = true;
-				}
-				break;
-			case "avatar":
-			{
-				for (int i = 0; i < 19; i++)
-				{
-					if (reader.Value == ((AvatarType)i).ToString())
+				case "map":
+					AchievementConf.map = "Zombie3D_" + reader.Value;
+					break;
+				case "count":
+					AchievementConf.gameCount = int.Parse(reader.Value);
+					if (AchievementConf.gameCount == AchievementConf.finishGameCount)
 					{
-						AchievementConf.needAvatar = (AvatarType)i;
+						AchievementConf.finish = true;
+					}
+					break;
+				case "avatar":
+					{
+						for (int i = 0; i < 19; i++)
+						{
+							if (reader.Value == ((AvatarType)i).ToString())
+							{
+								AchievementConf.needAvatar = (AvatarType)i;
+								break;
+							}
+						}
 						break;
 					}
-				}
-				break;
-			}
-			case "weapon":
-				AchievementConf.needWeapon = reader.Value;
-				break;
-			case "Reward":
-				AchievementConf.rewardCash = int.Parse(reader.Value);
-				break;
+				case "weapon":
+					AchievementConf.needWeapon = reader.Value;
+					break;
+				case "Reward":
+					AchievementConf.rewardCash = int.Parse(reader.Value);
+					break;
 			}
 		}
 	}

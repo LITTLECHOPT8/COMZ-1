@@ -27,7 +27,9 @@
     <Avatar name="TechGold" damageInitial="350" damageFinal="350" hpInitial="5500" hpFinal="5500" speedInitial="13" speedFinal="13" isCrystalBuy ="1" unlockDay="0" price="289" hpWeight="2.75" hpPriceWeight="2.75" />
     <Avatar name="Mike" damageInitial="250" damageFinal="300" hpInitial="3500" hpFinal="4500" speedInitial="11" speedFinal="12" isCrystalBuy ="1" unlockDay="0" price="289" hpWeight="2.2" hpPriceWeight="2.2" />
     <Avatar name="Shinobi" damageInitial="280" damageFinal="350" hpInitial="1000" hpFinal="1700" speedInitial="15" speedFinal="18" isCrystalBuy ="0" unlockDay="30" price="1200000" hpWeight="1.2" hpPriceWeight="2" />
-
+    <Avatar name="Katia" damageInitial="150" damageFinal="250" hpInitial="850" hpFinal="1500" speedInitial="10" speedFinal="14" isCrystalBuy ="0" unlockDay="5" price="500000" hpWeight="1.9" hpPriceWeight="1.17" />
+    <Avatar name="Mikey" damageInitial="275" damageFinal="250" hpInitial="4000" hpFinal="5000" speedInitial="12" speedFinal="14" isCrystalBuy ="1" unlockDay="0" price="315" hpWeight="2.43" hpPriceWeight="2.25" />
+    <Avatar name="Zweronz" damageInitial="200" damageFinal="225" hpInitial="1500" hpFinal="3000" speedInitial="10" speedFinal="12" isCrystalBuy ="0" unlockDay="15" price="275000" hpWeight="1.43" hpPriceWeight="1.25" />
   </Avatars>
 	
   <Monsters>

@@ -23,6 +23,9 @@ namespace Zombie3D
 		TechGold = 17,
 		Mike = 18,
 		Shinobi = 19,
-		AvatarCount = 20
+		Mikey = 20,
+		Katia = 21,
+		Zweronz = 22,
+		AvatarCount = 23
 	}
 }

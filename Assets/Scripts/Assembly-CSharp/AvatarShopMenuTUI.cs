@@ -113,7 +113,7 @@ public class AvatarShopMenuTUI : MonoBehaviour, TUIHandler
 		audioPlayer.AddAudio(folderTrans, "Back", true);
 		RefreshCashLebel();
 		label_day.text_Accessor = "DAY " + GameApp.GetInstance().GetGameState().LevelNum;
-		for (int i = 0; i < 20; i++)
+		for (int i = 0; i < 23; i++)
 		{
 			GameObject gameObject = AvatarFactory.GetInstance().CreateAvatar((AvatarType)i);
 			gameObject.transform.position = invalid_postion;
@@ -344,30 +344,30 @@ public class AvatarShopMenuTUI : MonoBehaviour, TUIHandler
 			AvatarType avatarType2 = (AvatarType)int.Parse(avatar.name.Substring("AvatarType_".Length));
 			switch (GameApp.GetInstance().GetGameState().BuyAvatar(avatarType2))
 			{
-			case BuyStatus.Succeed:
-			{
-				Debug.Log("avatar buy success.");
-				RefreshCashLebel();
-				RefreshDescription(avatarType2);
-				AvatarType avatarType3 = GameApp.GetInstance().GetGameState().Avatar;
-				avatar_buttons[(int)avatarType3].transform.Find("tip").GetComponent<TUIMeshSprite>().frameName_Accessor = string.Empty;
-				GameApp.GetInstance().GetGameState().Avatar = avatarType2;
-				avatar_buttons[(int)avatarType2].transform.Find("tip").GetComponent<TUIMeshSprite>().frameName_Accessor = "logo_equipped";
-				GameApp.GetInstance().Save();
-				FlurryStatistics.BuyAvatarEvent(avatarType2, GameApp.GetInstance().GetGameState().GetAvatarByType(avatarType2)
-					.aConf.isCrystalBuy);
-				break;
-			}
-			case BuyStatus.NotEnoughCash:
-				get_money_panel.SetContent(DialogString.lack_of_money);
-				get_money_panel.Show();
-				FrameCamera.depth = -5f;
-				break;
-			default:
-				get_money_panel.SetContent(DialogString.lack_of_crystal);
-				get_money_panel.Show();
-				FrameCamera.depth = -5f;
-				break;
+				case BuyStatus.Succeed:
+					{
+						Debug.Log("avatar buy success.");
+						RefreshCashLebel();
+						RefreshDescription(avatarType2);
+						AvatarType avatarType3 = GameApp.GetInstance().GetGameState().Avatar;
+						avatar_buttons[(int)avatarType3].transform.Find("tip").GetComponent<TUIMeshSprite>().frameName_Accessor = string.Empty;
+						GameApp.GetInstance().GetGameState().Avatar = avatarType2;
+						avatar_buttons[(int)avatarType2].transform.Find("tip").GetComponent<TUIMeshSprite>().frameName_Accessor = "logo_equipped";
+						GameApp.GetInstance().Save();
+						FlurryStatistics.BuyAvatarEvent(avatarType2, GameApp.GetInstance().GetGameState().GetAvatarByType(avatarType2)
+							.aConf.isCrystalBuy);
+						break;
+					}
+				case BuyStatus.NotEnoughCash:
+					get_money_panel.SetContent(DialogString.lack_of_money);
+					get_money_panel.Show();
+					FrameCamera.depth = -5f;
+					break;
+				default:
+					get_money_panel.SetContent(DialogString.lack_of_crystal);
+					get_money_panel.Show();
+					FrameCamera.depth = -5f;
+					break;
 			}
 		}
 		else if (control.name == "Unlock_Button" && eventType == 3)
@@ -398,21 +398,21 @@ public class AvatarShopMenuTUI : MonoBehaviour, TUIHandler
 			AvatarType avatarType5 = (AvatarType)int.Parse(avatar.name.Substring("AvatarType_".Length));
 			switch (GameApp.GetInstance().GetGameState().BuyAvatarHp(avatarType5))
 			{
-			case UpgradeStatus.Succeed:
-				RefreshCashLebel();
-				RefreshDescription(avatarType5);
-				GameApp.GetInstance().Save();
-				break;
-			case UpgradeStatus.MaxLevel:
-				maxlevel_dialog_panel.SetContent(DialogString.avatar_max_hp_buy);
-				maxlevel_dialog_panel.Show();
-				FrameCamera.depth = -5f;
-				break;
-			case UpgradeStatus.NotEnoughCash:
-				get_money_panel.SetContent(DialogString.lack_of_money);
-				get_money_panel.Show();
-				FrameCamera.depth = -5f;
-				break;
+				case UpgradeStatus.Succeed:
+					RefreshCashLebel();
+					RefreshDescription(avatarType5);
+					GameApp.GetInstance().Save();
+					break;
+				case UpgradeStatus.MaxLevel:
+					maxlevel_dialog_panel.SetContent(DialogString.avatar_max_hp_buy);
+					maxlevel_dialog_panel.Show();
+					FrameCamera.depth = -5f;
+					break;
+				case UpgradeStatus.NotEnoughCash:
+					get_money_panel.SetContent(DialogString.lack_of_money);
+					get_money_panel.Show();
+					FrameCamera.depth = -5f;
+					break;
 			}
 		}
 		else if (control.name == "Iap_yes" && eventType == 3)
