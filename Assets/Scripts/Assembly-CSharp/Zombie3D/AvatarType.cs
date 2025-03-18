@@ -26,6 +26,9 @@ namespace Zombie3D
 		Mikey = 20,
 		Katia = 21,
 		Zweronz = 22,
-		AvatarCount = 23
+		ZweronzNormal = 23,
+		XiaoLong = 24,
+		GreenBlo = 25,
+		AvatarCount = 26
 	}
 }

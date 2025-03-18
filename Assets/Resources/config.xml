@@ -30,6 +30,9 @@
     <Avatar name="Katia" damageInitial="150" damageFinal="250" hpInitial="850" hpFinal="1500" speedInitial="10" speedFinal="14" isCrystalBuy ="0" unlockDay="5" price="500000" hpWeight="1.9" hpPriceWeight="1.17" />
     <Avatar name="Mikey" damageInitial="275" damageFinal="250" hpInitial="4000" hpFinal="5000" speedInitial="12" speedFinal="14" isCrystalBuy ="1" unlockDay="0" price="315" hpWeight="2.43" hpPriceWeight="2.25" />
     <Avatar name="Zweronz" damageInitial="200" damageFinal="225" hpInitial="1500" hpFinal="3000" speedInitial="10" speedFinal="12" isCrystalBuy ="0" unlockDay="15" price="275000" hpWeight="1.43" hpPriceWeight="1.25" />
+    <Avatar name="ZweronzNormal" damageInitial="250" damageFinal="500" hpInitial="3000" hpFinal="4500" speedInitial="8" speedFinal="10" isCrystalBuy ="0" unlockDay="35" price="3000000" hpWeight="1.53" hpPriceWeight="2.25" />
+    <Avatar name="XiaoLong" damageInitial="25" damageFinal="125" hpInitial="175" hpFinal="2250" speedInitial="9" speedFinal="11" isCrystalBuy ="0" unlockDay="0" price="12500" hpWeight="1.53" hpPriceWeight="2.25" />
+    <Avatar name="GreenBlo" damageInitial="10" damageFinal="100" hpInitial="150" hpFinal="2000" speedInitial="7" speedFinal="9" isCrystalBuy ="0" unlockDay="0" price="400" hpWeight="1" hpPriceWeight="1" />
   </Avatars>
 	
   <Monsters>
@@ -485,6 +488,12 @@
       <VSFrequencyPara base="0.25" delta="-0.004"/>
     </Weapon>
 
+    <Weapon name="AK-48" type="AssaultRifle" moveSpeedDrag="1.65" range ="13" price ="1000" initBullet="800" bulletPrice="2500" bullet="500" startEquip = "0" crystalBuy ="0" unlockLevel ="0">
+      <AttributesUpgrade damageInitial="8.9" damageFinal="141.2" frequencyInitial="0.25" frequencyFinal="0.13" accuracyInitial="60" accuracyFinal="84.6" priceWeight="1.1"/>
+      <VSDamagePara base="40.5" delta="3.448" delta2="18.74"/>
+      <VSFrequencyPara base="0.25" delta="-0.004"/>
+    </Weapon>
+    
     <Weapon name="AUG" type="AssaultRifle" moveSpeedDrag="1.2" range ="15" price ="22" initBullet="800" bulletPrice="4500" bullet="500" startEquip = "1" crystalBuy ="1" unlockLevel ="0">
       <AttributesUpgrade damageInitial="10.5" damageFinal="142.2" frequencyInitial="0.18" frequencyFinal="0.08" accuracyInitial="75" accuracyFinal="94.4" priceWeight="2.8"/>
       <VSDamagePara base="30" delta="2.031" delta2="11.85"/>

@@ -17,7 +17,8 @@ namespace Zombie3D
 		ElectricGun = 12,
 		SuicideGun = 13,
 		Crossbow = 14,
-		Gun_Count = 15,
+		AK48 = 15,
+		Gun_Count = 16,
 		DiloSpitFire = 16
 	}
 }
