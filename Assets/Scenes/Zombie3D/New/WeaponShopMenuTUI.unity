@@ -16527,7 +16527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: Achi_Button_2
+  frameName: Achi_Button_1
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0
@@ -17221,7 +17221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: Achi_Button_2
+  frameName: Achi_Button_1
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0
@@ -18725,7 +18725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &743676649
 Transform:
   m_ObjectHideFlags: 0

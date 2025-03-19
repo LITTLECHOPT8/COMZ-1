@@ -33,6 +33,7 @@
     <Avatar name="ZweronzNormal" damageInitial="250" damageFinal="500" hpInitial="3000" hpFinal="4500" speedInitial="8" speedFinal="10" isCrystalBuy ="0" unlockDay="35" price="3000000" hpWeight="1.53" hpPriceWeight="2.25" />
     <Avatar name="XiaoLong" damageInitial="25" damageFinal="125" hpInitial="175" hpFinal="2250" speedInitial="9" speedFinal="11" isCrystalBuy ="0" unlockDay="0" price="12500" hpWeight="1.53" hpPriceWeight="2.25" />
     <Avatar name="GreenBlo" damageInitial="10" damageFinal="100" hpInitial="150" hpFinal="2000" speedInitial="7" speedFinal="9" isCrystalBuy ="0" unlockDay="0" price="400" hpWeight="1" hpPriceWeight="1" />
+    <Avatar name="TruckDriver" damageInitial="270" damageFinal="270" hpInitial="3600" hpFinal="3600" speedInitial="11" speedFinal="12" isCrystalBuy ="1" unlockDay="0" price="100" hpWeight="1.8" hpPriceWeight="1.8" />
   </Avatars>
 	
   <Monsters>

@@ -29,6 +29,7 @@ namespace Zombie3D
 		ZweronzNormal = 23,
 		XiaoLong = 24,
 		GreenBlo = 25,
-		AvatarCount = 26
+		TruckDriver = 26,
+		AvatarCount = 27
 	}
 }

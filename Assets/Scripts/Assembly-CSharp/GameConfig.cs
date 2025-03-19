@@ -234,7 +234,7 @@ public class GameConfig
 			{
 				case "name":
 					{
-						for (int i = 0; i < 26; i++)
+						for (int i = 0; i < 27; i++)
 						{
 							if (((AvatarType)i).ToString() == reader.Value)
 							{
@@ -661,7 +661,7 @@ public class GameConfig
 			}
 			else if (reader.Name == "type")
 			{
-				for (int i = 1; i < 24; i++)
+				for (int i = 1; i < 25; i++)
 				{
 					if (((WeaponType)i).ToString() == reader.Value)
 					{
