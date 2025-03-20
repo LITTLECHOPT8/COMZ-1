@@ -30,6 +30,7 @@ namespace Zombie3D
 		XiaoLong = 24,
 		GreenBlo = 25,
 		TruckDriver = 26,
+		//Hubert = 27,
 		AvatarCount = 27
 	}
 }

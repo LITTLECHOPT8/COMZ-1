@@ -2659,12 +2659,12 @@ Camera:
     x: 0
     y: 0
     width: 1
-    height: 0.99999994
+    height: 1
   near clip plane: -128
   far clip plane: 128
   field of view: 60
   orthographic: 1
-  orthographic size: 320
+  orthographic size: 160
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -8547,6 +8547,9 @@ MonoBehaviour:
     - frameName: Avatar_19
       size: {x: 58, y: 41}
       uv: {x: 0.79003906, y: 0.4169922, z: 0.9033203, w: 0.3369141}
+    - frameName: Avatar_20
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.3339844, z: 0.9033203, w: 0.2539063}
   - textureFile: UI/RoomUI/RoomUI_3@2x
     frames:
     - frameName: Zombie3D_Church
@@ -8591,10 +8594,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_viewRect:
     serializedVersion: 2
-    x: 285
-    y: 105
-    width: 960
-    height: 640
+    x: 0
+    y: 0
+    width: 947
+    height: 565
 --- !u!114 &334
 MonoBehaviour:
   m_ObjectHideFlags: 0
