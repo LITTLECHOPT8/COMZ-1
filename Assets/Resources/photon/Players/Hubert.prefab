@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 114012735426632534}
   - component: {fileID: 114601534988959422}
   m_Layer: 8
-  m_Name: COWBOY_C
+  m_Name: Hubert
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

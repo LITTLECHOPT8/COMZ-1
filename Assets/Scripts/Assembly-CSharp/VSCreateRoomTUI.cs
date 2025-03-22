@@ -190,7 +190,7 @@ public class VSCreateRoomTUI : Photon.PunBehaviour, TUIHandler
 	{
 		string room_name = /*tnetObj.Myself.Name*/UnityEngine.Random.Range(0, 99999) + "|vs";
 		thePassword = password;
-		PhotonNetwork.CreateRoom(room_name, new RoomOptions { maxPlayers = 4, cleanupCacheOnLeave = false }, TypedLobby.Default);
+		PhotonNetwork.CreateRoom(room_name, new RoomOptions { maxPlayers = 6, cleanupCacheOnLeave = false }, TypedLobby.Default);
 		//int num = VSHallTUI.groupIdMin + currentChosenScene - 1;
 		//if (num <= VSHallTUI.groupIdMax)
 		//{
@@ -252,21 +252,21 @@ public class VSCreateRoomTUI : Photon.PunBehaviour, TUIHandler
 		Debug.Log("OnRoomJoin...");
 		//if ((int)evt.data["result"] == 0)
 		//{
-			Debug.Log("Room join success.");
-			//TNetConnection.is_server = true;
-			GameApp.GetInstance().GetGameState().cur_net_map = SceneName.GetNetMapName(currentChosenScene);
-			if (PhotonNetwork.isMasterClient)
-			{
-				ExitGames.Client.Photon.Hashtable hashtable = new ExitGames.Client.Photon.Hashtable();
-				hashtable.Add("mapNumber", currentChosenScene);
-				hashtable.Add("password", thePassword);
-				hashtable.Add("gameStarted", false);
-				hashtable.Add("time", 0f);
-				hashtable.Add("firstBlood", false);
-				PhotonNetwork.room.SetCustomProperties(hashtable);
-			}
-			SceneName.FadeOutLevel("RoomTUI");
-			FlurryStatistics.VsChooseMap(GameApp.GetInstance().GetGameState().cur_net_map);
+		Debug.Log("Room join success.");
+		//TNetConnection.is_server = true;
+		GameApp.GetInstance().GetGameState().cur_net_map = SceneName.GetNetMapName(currentChosenScene);
+		if (PhotonNetwork.isMasterClient)
+		{
+			ExitGames.Client.Photon.Hashtable hashtable = new ExitGames.Client.Photon.Hashtable();
+			hashtable.Add("mapNumber", currentChosenScene);
+			hashtable.Add("password", thePassword);
+			hashtable.Add("gameStarted", false);
+			hashtable.Add("time", 0f);
+			hashtable.Add("firstBlood", false);
+			PhotonNetwork.room.SetCustomProperties(hashtable);
+		}
+		SceneName.FadeOutLevel("RoomTUI");
+		FlurryStatistics.VsChooseMap(GameApp.GetInstance().GetGameState().cur_net_map);
 		//}
 		//else
 		//{

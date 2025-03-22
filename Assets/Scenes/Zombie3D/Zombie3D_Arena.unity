@@ -2606,7 +2606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &152
 GameObject:
   m_ObjectHideFlags: 0
@@ -17704,7 +17704,7 @@ Prefab:
     - target: {fileID: 20942012491927166, guid: 57c038779ce98e546ab9186c9b48389c,
         type: 2}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99999994
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114373676359705072, guid: 57c038779ce98e546ab9186c9b48389c,
         type: 2}

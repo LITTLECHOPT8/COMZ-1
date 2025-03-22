@@ -34,7 +34,9 @@
     <Avatar name="XiaoLong" damageInitial="25" damageFinal="125" hpInitial="175" hpFinal="2250" speedInitial="9" speedFinal="11" isCrystalBuy ="0" unlockDay="0" price="12500" hpWeight="1.53" hpPriceWeight="2.25" />
     <Avatar name="GreenBlo" damageInitial="10" damageFinal="100" hpInitial="150" hpFinal="2000" speedInitial="7" speedFinal="9" isCrystalBuy ="0" unlockDay="0" price="400" hpWeight="1" hpPriceWeight="1" />
     <Avatar name="TruckDriver" damageInitial="270" damageFinal="270" hpInitial="3600" hpFinal="3600" speedInitial="11" speedFinal="12" isCrystalBuy ="1" unlockDay="0" price="100" hpWeight="1.8" hpPriceWeight="1.8" />
-    
+    <Avatar name="Jed" damageInitial="190" damageFinal="220" hpInitial="2500" hpFinal="3300" speedInitial="11" speedFinal="14" iscrystalBuy ="0" unlockday="25" price="750000" hpWeight="1.85" hpPriceWeight="1.85" />
+    <Avatar name="Hubert" damageInitial="225" damageFinal="255" hpInitial="2650" hpFinal="3050" speedInitial="14" speedFinal="16" isCrystalBuy ="1" unlockDay="0" price="75" hpWeight="0.85" hpPriceWeight="0.85" />
+    <Avatar name="Rod" damageInitial="300" damageFinal="400" hpInitial="1250" hpFinal="1500" speedInitial="9" speedFinal="11" isCrystalBuy ="0" unlockDay="12" price="1250000" hpWeight="1.35" hpPriceWeight="1.35" />
   </Avatars>
 	
   <Monsters>

@@ -54,7 +54,7 @@ public class TutorialMainMap : MonoBehaviour
 			}
 			else
 			{
-				num2 = Random.Range(0, 9);
+				num2 = Random.Range(0, 21);
 				buttons[num2].SetActive(true);
 				if (num2 == SceneName.GetNetMapIndex("Zombie3D_Arena") - 1)
 				{
@@ -68,7 +68,7 @@ public class TutorialMainMap : MonoBehaviour
 		}
 		int num3 = -1;
 		int num4 = -1;
-		num3 = Random.Range(0, 9);
+		num3 = Random.Range(0, 10);
 		buttons[num3].SetActive(true);
 		buttons[num3].name = tip_normal + buttons[num3].name;
 		buttons_background[num3].gameObject.SetActive(true);
@@ -81,7 +81,7 @@ public class TutorialMainMap : MonoBehaviour
 			num4 = Random.Range(0, 9);
 			while (num4 == num3 || !GameScript.CheckDinosaurEnableScene("Zombie3D" + buttons[num4].name.Substring("Button".Length)))
 			{
-				num4 = Random.Range(0, 9);
+				num4 = Random.Range(0, 10);
 			}
 			buttons_background[num4].gameObject.SetActive(true);
 			GameObject gameObject = Object.Instantiate(Resources.Load("Prefabs/TUI/DinoHunting_Tip"), Vector3.zero, Quaternion.identity) as GameObject;

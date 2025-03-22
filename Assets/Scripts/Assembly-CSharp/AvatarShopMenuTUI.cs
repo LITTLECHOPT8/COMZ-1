@@ -113,7 +113,7 @@ public class AvatarShopMenuTUI : MonoBehaviour, TUIHandler
 		audioPlayer.AddAudio(folderTrans, "Back", true);
 		RefreshCashLebel();
 		label_day.text_Accessor = "DAY " + GameApp.GetInstance().GetGameState().LevelNum;
-		for (int i = 0; i < 27; i++)
+		for (int i = 0; i < 30; i++)
 		{
 			GameObject gameObject = AvatarFactory.GetInstance().CreateAvatar((AvatarType)i);
 			gameObject.transform.position = invalid_postion;
