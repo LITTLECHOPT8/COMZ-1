@@ -121,6 +121,7 @@ namespace Zombie3D
                 case "Zombie3D_Forest3":
                 case "Zombie3D_Test":
                 case "Zombie3D_Depot":
+                case "Zombie3D_Airport":
                     return 5;
                 case "Zombie3D_Church":
                 case "Zombie3D_ParkingLot":
@@ -225,6 +226,8 @@ namespace Zombie3D
                     return 20;  // Choose an appropriate index for the new map
                 case "Zombie3D_Depot":  // Add your new map here
                     return 21;
+                case "Zombie3D_Airport":  // Add your new map here
+                    return 22;
                 default:
                     return 0;
             }
@@ -299,6 +302,9 @@ namespace Zombie3D
                 case 21:  // Add your new map here
                     result = "Zombie3D_Depot";  // Change this to your new map's name
                     break;
+                case 22:  // Add your new map here
+                    result = "Zombie3D_Airport";  // Change this to your new map's name
+                    break;
             }
             return result;
         }
@@ -350,6 +356,8 @@ namespace Zombie3D
                     return "Test Map";  // Replace with the actual name you'd like to display
                 case "Zombie3D_Depot":  // Add your new map case here
                     return "Depot";  // Replace with the actual name you'd like to display
+                case "Zombie3D_Airport":  // Add your new map case here
+                    return "Airport";  // Replace with the actual name you'd like to display
                 default:
                     return string.Empty;
             }
@@ -382,6 +390,8 @@ namespace Zombie3D
                     return new CoopBossType(EnemyType.E_ZOMBIE, true);  // Replace with the correct enemy type for your map
                 case "Zombie3D_Depot":  // Add your new map here
                     return new CoopBossType(EnemyType.E_ZOMBIE, true);  // Replace with the correct enemy type for your map
+                case "Zombie3D_Airport":  // Add your new map here
+                    return new CoopBossType(EnemyType.E_ZOMBIE, true);  // Replace with the correct enemy type for your map
                 default:
                     return null;
             }
@@ -413,6 +423,8 @@ namespace Zombie3D
                 case "Zombie3D_Test":  // Add your new map here
                     return 10000;  // Replace with the appropriate reward value for your map
                 case "Zombie3D_Depot":  // Add your new map here
+                    return 10000;  // Replace with the appropriate reward value for your map
+                case "Zombie3D_Airport":  // Add your new map here
                     return 10000;  // Replace with the appropriate reward value for your map
                 default:
                     return 0;
