@@ -2,18 +2,18 @@ using UnityEngine;
 
 namespace Zombie3D
 {
-	public class WeaponFactory
-	{
-		protected static WeaponFactory instance;
+    public class WeaponFactory
+    {
+        protected static WeaponFactory instance;
 
-		public static WeaponFactory GetInstance()
-		{
-			if (instance == null)
-			{
-				instance = new WeaponFactory();
-			}
-			return instance;
-		}
+        public static WeaponFactory GetInstance()
+        {
+            if (instance == null)
+            {
+                instance = new WeaponFactory();
+            }
+            return instance;
+        }
 
         public Weapon CreateWeapon(WeaponType wType, bool isMultiWeapon)
         {
@@ -25,9 +25,7 @@ namespace Zombie3D
                     case WeaponType.AssaultRifle:
                         result = new MultiAssaultRifle();
                         break;
-                    case WeaponType.AK48:
-                        result = new MultiAK48();  // Create a MultiAK48 class for the multi version of AK48
-                        break;
+
                     case WeaponType.ShotGun:
                         result = new MultiShotGun();
                         break;
@@ -73,9 +71,6 @@ namespace Zombie3D
                     case WeaponType.AssaultRifle:
                         result = new AssaultRifle();
                         break;
-                    case WeaponType.AK48:
-                        result = new AK48();  // Normal AK48 weapon
-                        break;
                     case WeaponType.ShotGun:
                         result = new ShotGun();
                         break;
@@ -118,13 +113,13 @@ namespace Zombie3D
         }
 
         public GameObject CreateWeaponModel(string weaponName, Vector3 pos, Quaternion rotation)
-		{
-			string path = "Prefabs/Weapon/" + weaponName;
-			GameObject gameObject = Object.Instantiate(Resources.Load(path)) as GameObject;
-			GunConfigScript component = gameObject.GetComponent<GunConfigScript>();
-			GameObject result = (GameObject)Object.Instantiate(component.Gun_Instance, pos, rotation);
-			Object.Destroy(gameObject);
-			return result;
-		}
-	}
+        {
+            string path = "Prefabs/Weapon/" + weaponName;
+            GameObject gameObject = Object.Instantiate(Resources.Load(path)) as GameObject;
+            GunConfigScript component = gameObject.GetComponent<GunConfigScript>();
+            GameObject result = (GameObject)Object.Instantiate(component.Gun_Instance, pos, rotation);
+            Object.Destroy(gameObject);
+            return result;
+        }
+    }
 }

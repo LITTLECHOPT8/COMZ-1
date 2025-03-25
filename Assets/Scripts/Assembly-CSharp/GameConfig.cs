@@ -658,10 +658,11 @@ public class GameConfig
 			if (reader.Name == "name")
 			{
 				weaponConf.name = reader.Value;
+				Debug.Log("Loaded weapon: " + weaponConf.name);
 			}
 			else if (reader.Name == "type")
 			{
-				for (int i = 1; i < 25; i++)
+				for (int i = 1; i < 23; i++)
 				{
 					if (((WeaponType)i).ToString() == reader.Value)
 					{
@@ -669,6 +670,7 @@ public class GameConfig
 					}
 				}
 			}
+
 			else if (reader.Name == "moveSpeedDrag")
 			{
 				weaponConf.moveSpeedDrag = float.Parse(reader.Value);

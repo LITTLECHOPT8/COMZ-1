@@ -375,7 +375,7 @@ public class VSHallTUI : MonoBehaviour, TUIHandler
 			ModelSelectPanel.SetActive(false);
 			FrameCamera.depth = 1f;
 			isPixelVS = false;
-			GameObject.Find("TUI/TUIControl/Coop-VS/text").GetComponent<TUIMeshText>().text_Accessor = "VS-NORMAL";
+			GameObject.Find("TUI/TUIControl/Coop-VS/text").GetComponent<TUIMeshText>().text_Accessor = "VS MODE";
 			randomSceneList = RandomSortSceneList();
 		}
 		else if (control.name == "PixelVS" && eventType == 3)
@@ -395,22 +395,22 @@ public class VSHallTUI : MonoBehaviour, TUIHandler
 			FrameCamera.depth = 1f;
 			switch (MsgBox.GetComponent<MsgBoxDelegate>().m_type)
 			{
-			case MsgBoxType.WrongTextFormat:
-				FrameCamera.depth = -5f;
-				SearchPanel.transform.localPosition = new Vector3(0f, 0f, SearchPanel.transform.localPosition.z);
-				SearchPanel.GetComponent<TUITextField>().ResetText();
-				break;
-			case MsgBoxType.ContectingTimeout:
-				FrameCamera.depth = -5f;
-				SceneName.FadeOutLevel("MainMapTUI");
-				FlurryStatistics.ServerDisconnectEvent("VS");
-				break;
-			case MsgBoxType.VersionError:
-				FrameCamera.depth = -5f;
-				logoutDestination = LogoutDestination.MainMap;
-				tnetObj.Close();
-				Application.OpenURL("market://details?id=com.trinitigame.callofminiandroid");
-				break;
+				case MsgBoxType.WrongTextFormat:
+					FrameCamera.depth = -5f;
+					SearchPanel.transform.localPosition = new Vector3(0f, 0f, SearchPanel.transform.localPosition.z);
+					SearchPanel.GetComponent<TUITextField>().ResetText();
+					break;
+				case MsgBoxType.ContectingTimeout:
+					FrameCamera.depth = -5f;
+					SceneName.FadeOutLevel("MainMapTUI");
+					FlurryStatistics.ServerDisconnectEvent("VS");
+					break;
+				case MsgBoxType.VersionError:
+					FrameCamera.depth = -5f;
+					logoutDestination = LogoutDestination.MainMap;
+					tnetObj.Close();
+					Application.OpenURL("market://details?id=com.trinitigame.callofminiandroid");
+					break;
 			}
 		}
 	}
@@ -433,27 +433,27 @@ public class VSHallTUI : MonoBehaviour, TUIHandler
 		TNetConnection.Disconnect();
 		switch (logoutDestination)
 		{
-		case LogoutDestination.Shop:
-			SceneName.FadeOutLevel("ShopMenuTUI");
-			ShopMenuTUI.last_map_to_shop = "VSHallTUI";
-			ShopMenuTUI.chosen_shop = ShopMenu.AvatarShop;
-			break;
-		case LogoutDestination.Achievement:
-			SceneName.FadeOutLevel("AchievementTUI");
-			break;
-		case LogoutDestination.MainMap:
-			SceneName.FadeOutLevel("MainMapTUI");
-			break;
-		case LogoutDestination.IapShop:
-			SceneName.FadeOutLevel("IapShopTUI");
-			IapShopTUI.last_scene_to_iap = "VSHallTUI";
-			break;
-		case LogoutDestination.Option:
-			SceneName.FadeOutLevel("OptionTUI");
-			break;
-		case LogoutDestination.SurvivalMap:
-		case LogoutDestination.VsMap:
-			break;
+			case LogoutDestination.Shop:
+				SceneName.FadeOutLevel("ShopMenuTUI");
+				ShopMenuTUI.last_map_to_shop = "VSHallTUI";
+				ShopMenuTUI.chosen_shop = ShopMenu.AvatarShop;
+				break;
+			case LogoutDestination.Achievement:
+				SceneName.FadeOutLevel("AchievementTUI");
+				break;
+			case LogoutDestination.MainMap:
+				SceneName.FadeOutLevel("MainMapTUI");
+				break;
+			case LogoutDestination.IapShop:
+				SceneName.FadeOutLevel("IapShopTUI");
+				IapShopTUI.last_scene_to_iap = "VSHallTUI";
+				break;
+			case LogoutDestination.Option:
+				SceneName.FadeOutLevel("OptionTUI");
+				break;
+			case LogoutDestination.SurvivalMap:
+			case LogoutDestination.VsMap:
+				break;
 		}
 	}
 
@@ -467,25 +467,25 @@ public class VSHallTUI : MonoBehaviour, TUIHandler
 		//Debug.Log(string.Concat("OnLogin:", (SysLoginResCmd.Result)(int)evt.data["result"], " id:", tnetObj.Myself.Id));
 		//if ((int)evt.data["result"] == 0)
 		//{
-			TNetConnection.Connection = tnetObj;
-			if (IndicatorPanel != null)
+		TNetConnection.Connection = tnetObj;
+		if (IndicatorPanel != null)
+		{
+			IndicatorPanel.GetComponent<IndicatorTUI>().Hide();
+			if (ModelSelectPanel.transform.localPosition.y != 0f)
 			{
-				IndicatorPanel.GetComponent<IndicatorTUI>().Hide();
-				if (ModelSelectPanel.transform.localPosition.y != 0f)
+				if (isPixelVS)
 				{
-					if (isPixelVS)
-					{
-						GameObject.Find("TUI/TUIControl/Coop-VS/text").GetComponent<TUIMeshText>().text_Accessor = "VS-PIXEL";
-					}
-					else
-					{
-						GameObject.Find("TUI/TUIControl/Coop-VS/text").GetComponent<TUIMeshText>().text_Accessor = "VS-NORMAL";
-					}
-					randomSceneList = RandomSortSceneList();
-					FrameCamera.depth = 1f;
+					GameObject.Find("TUI/TUIControl/Coop-VS/text").GetComponent<TUIMeshText>().text_Accessor = "VS-PIXEL";
 				}
+				else
+				{
+					GameObject.Find("TUI/TUIControl/Coop-VS/text").GetComponent<TUIMeshText>().text_Accessor = "VS MODE";
+				}
+				randomSceneList = RandomSortSceneList();
+				FrameCamera.depth = 1f;
 			}
-			TutorialMainMap.CheckShopButton();
+		}
+		TutorialMainMap.CheckShopButton();
 		//}
 		//else
 		//{
@@ -574,16 +574,16 @@ public class VSHallTUI : MonoBehaviour, TUIHandler
 		//{
 		//case 0:
 		//{
-			Debug.Log("Room joined successfully.");
-			FrameCamera.depth = -5f;
-			GameApp.GetInstance().GetGameState().cur_net_map = SceneName.GetNetMapName((int)PhotonNetwork.room.customProperties["mapNumber"]);
-			if ((bool)PhotonNetwork.room.customProperties["gameStarted"])
-			{
-				PhotonNetwork.isMessageQueueRunning = false;
-			}
-			tnetObj.RemoveCallbacks();
-			SceneName.FadeOutLevel("RoomTUI");
-			//return;
+		Debug.Log("Room joined successfully.");
+		FrameCamera.depth = -5f;
+		GameApp.GetInstance().GetGameState().cur_net_map = SceneName.GetNetMapName((int)PhotonNetwork.room.customProperties["mapNumber"]);
+		if ((bool)PhotonNetwork.room.customProperties["gameStarted"])
+		{
+			PhotonNetwork.isMessageQueueRunning = false;
+		}
+		tnetObj.RemoveCallbacks();
+		SceneName.FadeOutLevel("RoomTUI");
+		//return;
 		//}
 		//case 4:
 		//	if (joinRoomType == JoinRoomType.SearchWithPassword)
@@ -621,35 +621,35 @@ public class VSHallTUI : MonoBehaviour, TUIHandler
 	{
 		switch (IndicatorPanel.GetComponent<IndicatorTUI>().type)
 		{
-		case IndicatorTUI.IndicatorType.ServerConnect:
-		case IndicatorTUI.IndicatorType.HeartWaiting:
-			TNetConnection.UnregisterSFSSceneCallbacks();
-			TNetConnection.Disconnect();
-			if (MsgBox != null)
-			{
+			case IndicatorTUI.IndicatorType.ServerConnect:
+			case IndicatorTUI.IndicatorType.HeartWaiting:
+				TNetConnection.UnregisterSFSSceneCallbacks();
+				TNetConnection.Disconnect();
+				if (MsgBox != null)
+				{
+					FrameCamera.depth = -5f;
+					MsgBox.GetComponent<MsgBoxDelegate>().Show(DialogString.netUnableConnect, MsgBoxType.ContectingTimeout);
+				}
+				break;
+			case IndicatorTUI.IndicatorType.QuickMatch:
+				joinRoomType = JoinRoomType.None;
 				FrameCamera.depth = -5f;
-				MsgBox.GetComponent<MsgBoxDelegate>().Show(DialogString.netUnableConnect, MsgBoxType.ContectingTimeout);
-			}
-			break;
-		case IndicatorTUI.IndicatorType.QuickMatch:
-			joinRoomType = JoinRoomType.None;
-			FrameCamera.depth = -5f;
-			MsgBox.GetComponent<MsgBoxDelegate>().Show("No match found! Please \ntry again.", MsgBoxType.JoinRommFailed);
-			Debug.Log("quick match time out!");
-			break;
-		case IndicatorTUI.IndicatorType.RoomSearch:
-			searchRoomID = -1;
-			joinRoomType = JoinRoomType.None;
-			FrameCamera.depth = -5f;
-			MsgBox.GetComponent<MsgBoxDelegate>().Show("No match found! Please \ntry again!", MsgBoxType.JoinRommFailed);
-			Debug.Log("search room failed.");
-			break;
-		case IndicatorTUI.IndicatorType.RoomJoin:
-			joinRoomType = JoinRoomType.None;
-			FrameCamera.depth = -5f;
-			MsgBox.GetComponent<MsgBoxDelegate>().Show("Room unavailable, try \nanother one!", MsgBoxType.JoinRommFailed);
-			Debug.Log("join room failed.");
-			break;
+				MsgBox.GetComponent<MsgBoxDelegate>().Show("No match found! Please \ntry again.", MsgBoxType.JoinRommFailed);
+				Debug.Log("quick match time out!");
+				break;
+			case IndicatorTUI.IndicatorType.RoomSearch:
+				searchRoomID = -1;
+				joinRoomType = JoinRoomType.None;
+				FrameCamera.depth = -5f;
+				MsgBox.GetComponent<MsgBoxDelegate>().Show("No match found! Please \ntry again!", MsgBoxType.JoinRommFailed);
+				Debug.Log("search room failed.");
+				break;
+			case IndicatorTUI.IndicatorType.RoomJoin:
+				joinRoomType = JoinRoomType.None;
+				FrameCamera.depth = -5f;
+				MsgBox.GetComponent<MsgBoxDelegate>().Show("Room unavailable, try \nanother one!", MsgBoxType.JoinRommFailed);
+				Debug.Log("join room failed.");
+				break;
 		}
 	}
 

@@ -8550,6 +8550,151 @@ MonoBehaviour:
     - frameName: Avatar_20
       size: {x: 58, y: 41}
       uv: {x: 0.79003906, y: 0.3339844, z: 0.9033203, w: 0.2539063}
+    - frameName: Avatar_21
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.2509766, z: 0.9033203, w: 0.1708985}
+    - frameName: Avatar_22
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.1579688, z: 0.9033203, w: 0.0878907}
+    - frameName: Avatar_23
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.084961, z: 0.9033203, w: 0.0048829}
+  - textureFile: UI/RoomUI/RoomUI_2@4x
+    frames:
+    - frameName: fill_right
+      size: {x: 45, y: 320}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.08984375, w: 0.37304688}
+    - frameName: Zombie3D_Recycle
+      size: {x: 181, y: 175}
+      uv: {x: 0.09277344, y: 0.9980469, z: 0.44628906, w: 0.65625}
+    - frameName: Zombie3D_ParkingLot
+      size: {x: 176, y: 174}
+      uv: {x: 0.44921875, y: 0.9980469, z: 0.79296875, w: 0.6582031}
+    - frameName: Zombie3D_Village
+      size: {x: 173, y: 164}
+      uv: {x: 0.44921875, y: 0.65527344, z: 0.7871094, w: 0.33496094}
+    - frameName: Zombie3D_Arena
+      size: {x: 160, y: 171}
+      uv: {x: 0.09277344, y: 0.6533203, z: 0.40527344, w: 0.31933594}
+    - frameName: Zombie3D_Hospital
+      size: {x: 168, y: 165}
+      uv: {x: 0.40820312, y: 0.33203125, z: 0.7363281, w: 0.009765625}
+    - frameName: Zombie3D_PlayGound
+      size: {x: 166, y: 159}
+      uv: {x: 0.001953125, y: 0.31640625, z: 0.32617188, w: 0.005859375}
+    - frameName: Avatar_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.9980469, z: 0.9091797, w: 0.91796875}
+    - frameName: Avatar_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.91503906, z: 0.9091797, w: 0.83496094}
+    - frameName: Avatar_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.83203125, z: 0.9091797, w: 0.7519531}
+    - frameName: Avatar_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.74902344, z: 0.9091797, w: 0.6689453}
+    - frameName: Avatar_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.6660156, z: 0.9091797, w: 0.5859375}
+    - frameName: Avatar_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.5830078, z: 0.9033203, w: 0.5029297}
+    - frameName: Avatar_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.5, z: 0.9033203, w: 0.41992188}
+    - frameName: Avatar_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.4169922, z: 0.9033203, w: 0.3369141}
+    - frameName: Avatar_20
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.3339844, z: 0.9033203, w: 0.2539063}
+    - frameName: Avatar_28
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.3339844, z: 0.9033203, w: 0.2539063}
+    - frameName: Avatar_21
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.2509766, z: 0.9033203, w: 0.1708985}
+    - frameName: Avatar_29
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.2509766, z: 0.9033203, w: 0.1708985}
+    - frameName: Avatar_22
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.1579688, z: 0.9033203, w: 0.0878907}
+    - frameName: Avatar_23
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.084961, z: 0.9033203, w: 0.0048829}
+  - textureFile: UI/RoomUI/RoomUI_2@3x
+    frames:
+    - frameName: fill_right
+      size: {x: 45, y: 320}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.08984375, w: 0.37304688}
+    - frameName: Zombie3D_Recycle
+      size: {x: 181, y: 175}
+      uv: {x: 0.09277344, y: 0.9980469, z: 0.44628906, w: 0.65625}
+    - frameName: Zombie3D_ParkingLot
+      size: {x: 176, y: 174}
+      uv: {x: 0.44921875, y: 0.9980469, z: 0.79296875, w: 0.6582031}
+    - frameName: Zombie3D_Village
+      size: {x: 173, y: 164}
+      uv: {x: 0.44921875, y: 0.65527344, z: 0.7871094, w: 0.33496094}
+    - frameName: Zombie3D_Arena
+      size: {x: 160, y: 171}
+      uv: {x: 0.09277344, y: 0.6533203, z: 0.40527344, w: 0.31933594}
+    - frameName: Zombie3D_Hospital
+      size: {x: 168, y: 165}
+      uv: {x: 0.40820312, y: 0.33203125, z: 0.7363281, w: 0.009765625}
+    - frameName: Zombie3D_PlayGound
+      size: {x: 166, y: 159}
+      uv: {x: 0.001953125, y: 0.31640625, z: 0.32617188, w: 0.005859375}
+    - frameName: Avatar_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.9980469, z: 0.9091797, w: 0.91796875}
+    - frameName: Avatar_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.91503906, z: 0.9091797, w: 0.83496094}
+    - frameName: Avatar_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.83203125, z: 0.9091797, w: 0.7519531}
+    - frameName: Avatar_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.74902344, z: 0.9091797, w: 0.6689453}
+    - frameName: Avatar_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.79589844, y: 0.6660156, z: 0.9091797, w: 0.5859375}
+    - frameName: Avatar_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.5830078, z: 0.9033203, w: 0.5029297}
+    - frameName: Avatar_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.5, z: 0.9033203, w: 0.41992188}
+    - frameName: Avatar_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.4169922, z: 0.9033203, w: 0.3369141}
+    - frameName: Avatar_20
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.3339844, z: 0.9033203, w: 0.2539063}
+    - frameName: Avatar_24
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.3339844, z: 0.9033203, w: 0.2539063}
+    - frameName: Avatar_21
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.2509766, z: 0.9033203, w: 0.1708985}
+    - frameName: Avatar_25
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.2509766, z: 0.9033203, w: 0.1708985}
+    - frameName: Avatar_22
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.1579688, z: 0.9033203, w: 0.0878907}
+    - frameName: Avatar_26
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.1579688, z: 0.9033203, w: 0.0878907}
+    - frameName: Avatar_23
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.084961, z: 0.9033203, w: 0.0048829}
+    - frameName: Avatar_27
+      size: {x: 58, y: 41}
+      uv: {x: 0.79003906, y: 0.084961, z: 0.9033203, w: 0.0048829}
   - textureFile: UI/RoomUI/RoomUI_3@2x
     frames:
     - frameName: Zombie3D_Church
@@ -8596,8 +8741,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 947
-    height: 565
+    width: 956
+    height: 573
 --- !u!114 &334
 MonoBehaviour:
   m_ObjectHideFlags: 0

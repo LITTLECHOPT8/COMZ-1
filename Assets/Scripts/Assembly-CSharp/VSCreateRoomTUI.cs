@@ -121,7 +121,7 @@ public class VSCreateRoomTUI : Photon.PunBehaviour, TUIHandler
 				componentsInChildren[j].gameObject.SetActive(false);
 			}
 		}
-		GameObject.Find("TUI/TUIControl/Title/text").GetComponent<TUIMeshText>().text_Accessor = "VS-NORMAL";
+		GameObject.Find("TUI/TUIControl/Title/text").GetComponent<TUIMeshText>().text_Accessor = "VS MODE";
 		ChooseScene(GameObject.Find("scene1"));
 	}
 

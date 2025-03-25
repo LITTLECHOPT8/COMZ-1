@@ -491,12 +491,6 @@
       <VSDamagePara base="40.5" delta="3.448" delta2="18.74"/>
       <VSFrequencyPara base="0.25" delta="-0.004"/>
     </Weapon>
-
-    <Weapon name="AK-48" type="AssaultRifle" moveSpeedDrag="1.65" range ="13" price ="1000" initBullet="800" bulletPrice="2500" bullet="500" startEquip = "0" crystalBuy ="0" unlockLevel ="0">
-      <AttributesUpgrade damageInitial="8.9" damageFinal="141.2" frequencyInitial="0.25" frequencyFinal="0.13" accuracyInitial="60" accuracyFinal="84.6" priceWeight="1.1"/>
-      <VSDamagePara base="40.5" delta="3.448" delta2="18.74"/>
-      <VSFrequencyPara base="0.25" delta="-0.004"/>
-    </Weapon>
     
     <Weapon name="AUG" type="AssaultRifle" moveSpeedDrag="1.2" range ="15" price ="22" initBullet="800" bulletPrice="4500" bullet="500" startEquip = "1" crystalBuy ="1" unlockLevel ="0">
       <AttributesUpgrade damageInitial="10.5" damageFinal="142.2" frequencyInitial="0.18" frequencyFinal="0.08" accuracyInitial="75" accuracyFinal="94.4" priceWeight="2.8"/>

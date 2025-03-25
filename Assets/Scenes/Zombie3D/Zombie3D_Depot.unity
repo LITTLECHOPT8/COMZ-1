@@ -14553,7 +14553,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 956
-    height: 572
+    height: 573
 --- !u!20 &502125031
 Camera:
   m_ObjectHideFlags: 0
@@ -39574,6 +39574,1403 @@ MonoBehaviour:
       size: {x: 12, y: 12}
       uv: {x: 0.9638672, y: 0.4873047, z: 0.9873047, w: 0.4638672}
   - textureFile: UI/GameUI/GameUI_2@2x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@12x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_29
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@11x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_28
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@10x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_27
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@9x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_26
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@8x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_25
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@7x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_24
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@6x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_23
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@5x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_22
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@4x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_21
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@3x
     frames:
     - frameName: RebirthHeart
       size: {x: 60, y: 57}

@@ -140,6 +140,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Zombie3D/Zombie3D_Depot.unity
     guid: 268e562d553b79f44a90032f886925ee
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Zombie3D/Zombies.Airport.unity
-    guid: 6e1381f61419c89429c668af010753dd
+    path: Assets/Scenes/Zombie3D/Zombie3D_FunFair.unity
+    guid: d446b01522e84d0489ade1aa8e8aa96a
+  - enabled: 1
+    path: Assets/Scenes/Zombie3D/Zombie3D_Airport.unity
+    guid: 0fe2561d2f1a8cb4a8ed19d72c07038b

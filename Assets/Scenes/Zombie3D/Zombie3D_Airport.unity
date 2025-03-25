@@ -3429,7 +3429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &197
 GameObject:
   m_ObjectHideFlags: 0
@@ -10504,6 +10504,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 602}
+  - {fileID: 1407307619}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14980,7 +14981,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10000, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 701}
@@ -51388,9 +51389,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f85e65ad005557c46c901616a47b440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51402,16 +51400,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4436501535c87e516a5635b4f01e16e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_ui_cfgxml: 
-  m_ui_material_path: 
-  m_font_path: 
-  m_UIManagerRef: {fileID: 0}
-  cur_control_id: 0
-  m_v2BulletPos: {x: 0, y: 0}
-  m_nDialogType: 0
 --- !u!114 &2623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51423,9 +51411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7f4a7eb5a789374b4ee8f05cb0cfaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51437,12 +51422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c504ac6a71b9935402c0102a4b21db44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Camera: {fileID: 0}
-  m_CameraTransform: {fileID: 0}
-  m_CameraState: 0
 --- !u!114 &2625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51454,9 +51433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cdadda4a972c281b053961d0276cf9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51468,13 +51444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 10.122463, y: 6.123676, z: 9.948143}
-  m_v3Dir: {x: 0.35250852, y: -0.000537863, z: -0.93580866}
-  m_fSpeed: 3
 --- !u!114 &2627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51486,13 +51455,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -7.7200956, y: 20.077524, z: 28.19475}
-  m_v3Dir: {x: 0.7132234, y: 0.00020878925, z: -0.7009371}
-  m_fSpeed: 1
 --- !u!114 &2628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51504,13 +51466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 18.388294, y: 20, z: -7.1237183}
-  m_v3Dir: {x: 0.0672489, y: 0.051791552, z: -0.996391}
-  m_fSpeed: 10
 --- !u!114 &2629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51522,13 +51477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -27.772427, y: 0, z: -28.364157}
-  m_v3Dir: {x: 0.9542306, y: 0, z: 0.29907215}
-  m_fSpeed: 14
 --- !u!114 &2630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51540,13 +51488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 23.604755, y: 20.044773, z: -6.5753937}
-  m_v3Dir: {x: -0.6514231, y: -0.000000014901161, z: -0.75871474}
-  m_fSpeed: 15
 --- !u!114 &2631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51558,13 +51499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -60.97082, y: 0, z: -28.252487}
-  m_v3Dir: {x: 0.93089986, y: 0, z: 0.36527473}
-  m_fSpeed: 15
 --- !u!114 &2632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51576,13 +51510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 6.473049, y: 34.14769, z: -12.298895}
-  m_v3Dir: {x: 0.7218229, y: -0.6897269, z: 0.05699694}
-  m_fSpeed: 4
 --- !u!114 &2633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51594,13 +51521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 24.13217, y: 21.60079, z: -13.998451}
-  m_v3Dir: {x: -0.75607294, y: 0.008942533, z: 0.6544264}
-  m_fSpeed: 15
 --- !u!114 &2634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51612,12 +51532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51629,11 +51543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6edf346df1254ccd92d8149869f60063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 0
-  m_fTime: 2
 --- !u!114 &2636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51645,13 +51554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 9.986237, y: 1.9702625, z: 16.87024}
-  m_v3Dir: {x: 0.35651538, y: 0, z: -0.9342897}
-  m_fSpeed: 5
 --- !u!114 &2637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51663,13 +51565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 12.486431, y: 11.739429, z: 3.9116936}
-  m_v3Dir: {x: 0.3707078, y: 0.28798532, z: -0.88297266}
-  m_fSpeed: 8
 --- !u!114 &2638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51681,13 +51576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -36.05644, y: 19.8148, z: 10.810935}
-  m_v3Dir: {x: 0.91208106, y: 0.003002856, z: -0.40999943}
-  m_fSpeed: 1
 --- !u!114 &2639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51699,13 +51587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 40.590305, y: 10.601917, z: -29.807724}
-  m_v3Dir: {x: 0.49614558, y: -0.30294335, z: -0.8136738}
-  m_fSpeed: 5
 --- !u!114 &2640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51717,13 +51598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -22.296474, y: 19.639963, z: -34.509487}
-  m_v3Dir: {x: 0.99120533, y: 0.0050258413, z: -0.13223876}
-  m_fSpeed: 1
 --- !u!114 &2641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51735,13 +51609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 7.8561683, y: 19.90723, z: -18.19821}
-  m_v3Dir: {x: 0.889417, y: 0.002606045, z: -0.4570894}
-  m_fSpeed: 1
 --- !u!114 &2642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51753,13 +51620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 47.559032, y: 3.6173933, z: -38.728924}
-  m_v3Dir: {x: 0.6198367, y: -0.22876067, z: -0.7506471}
-  m_fSpeed: 30
 --- !u!114 &2643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51771,13 +51631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 29.771164, y: 20.088987, z: -8.564091}
-  m_v3Dir: {x: 0.46821475, y: -0.0022449296, z: -0.88361204}
-  m_fSpeed: 1
 --- !u!114 &2644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51789,13 +51642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -3.4154634, y: 19.941732, z: -0.4004321}
-  m_v3Dir: {x: 0.7800992, y: 0.0010215286, z: -0.62565535}
-  m_fSpeed: 1
 --- !u!114 &2645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51807,9 +51653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f85e65ad005557c46c901616a47b440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51821,21 +51664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43288198f1b5fc51e3b711c4b8e07ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_bDestroyed: 0
-  m_bActive: 0
-  m_bDead: 0
-  m_fShootDmg: 0
-  m_nBulletNum: 0
-  m_fShootRate: 0
-  m_fWarningRange: 0
-  m_fAttractRange: 0
-  m_iMaxCount: 0
-  m_fLife: 0
-  m_fSize: 0
-  m_v3Postion: {x: 0, y: 0, z: 0}
 --- !u!114 &2647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51847,13 +51675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 39.93469, y: 20.39606, z: 35.50905}
-  m_v3Dir: {x: 0.11405783, y: -0.004924346, z: -0.99346215}
-  m_fSpeed: 1
 --- !u!114 &2648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51865,13 +51686,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 2.6474893, y: 19.824877, z: -27.448519}
-  m_v3Dir: {x: 0.9475577, y: 0.0037180604, z: -0.31956422}
-  m_fSpeed: 1
 --- !u!114 &2649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51883,13 +51697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -20.077526, y: 19.951082, z: 18.503885}
-  m_v3Dir: {x: 0.80877316, y: 0.0013995774, z: -0.5881196}
-  m_fSpeed: 1
 --- !u!114 &2650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51901,13 +51708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 19.881697, y: 15.351939, z: 48.445602}
-  m_v3Dir: {x: 0.3909058, y: -0.0029020188, z: -0.9204264}
-  m_fSpeed: 1
 --- !u!114 &2651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51919,12 +51719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbcddd018eafea46e67642b4dea2392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 2
-  m_v3Dir: {x: 0.6143599, y: -0.23935664, z: -0.7518449}
-  m_fSpeed: 0.5
 --- !u!114 &2652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51936,13 +51730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -8.138884, y: 19.974583, z: 10.3274975}
-  m_v3Dir: {x: 0.6826754, y: -0.00013656821, z: -0.7307221}
-  m_fSpeed: 1
 --- !u!114 &2653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51954,13 +51741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -11.10682, y: 19.711714, z: -33.333275}
-  m_v3Dir: {x: 0.9954395, y: 0.0052585397, z: -0.09525222}
-  m_fSpeed: 1
 --- !u!114 &2654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51972,13 +51752,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 15.287842, y: 0, z: -24.968756}
-  m_v3Dir: {x: 0.7401483, y: 0, z: 0.6724436}
-  m_fSpeed: 5
 --- !u!114 &2655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51990,9 +51763,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c80b6476ab5626bf41b2286cb85ba36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52004,23 +51774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ede6342318550d75e324a8dfb3b4a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_WrapMode: 2
-  m_bDrawGizmos: 0
-  m_GizmosColor: {r: 1, g: 0, b: 0.94405603, a: 1}
-  m_ltPoint:
-  - {fileID: 920}
-  - {fileID: 1021}
-  - {fileID: 1042}
-  - {fileID: 1176}
-  - {fileID: 1003}
-  - {fileID: 1139}
-  - {fileID: 921}
-  - {fileID: 1032}
-  - {fileID: 974}
-  - {fileID: 1130}
 --- !u!114 &2657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52032,9 +51785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f85e65ad005557c46c901616a47b440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52046,13 +51796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 54.13359, y: 18.85773, z: -44.696907}
-  m_v3Dir: {x: -0.6259152, y: -0.34499934, z: 0.6994324}
-  m_fSpeed: 1
 --- !u!114 &2659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52064,13 +51807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 33.1797, y: 18.566044, z: 50.824986}
-  m_v3Dir: {x: -0.2580837, y: 0.022401381, z: -0.96586275}
-  m_fSpeed: 1
 --- !u!114 &2660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52082,13 +51818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42fa343014f3eb37728a2504ab991423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_bLockRotate: 0
-  m_WrapMode: 2
-  m_PathManager: {fileID: 0}
-  m_PathObject: {fileID: 502}
 --- !u!114 &2661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52100,12 +51829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbcddd018eafea46e67642b4dea2392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 2
-  m_v3Dir: {x: -0.9828188, y: -0.1779233, z: 0.0490981}
-  m_fSpeed: 0.5
 --- !u!114 &2662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52117,12 +51840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52134,13 +51851,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -44.988407, y: 0, z: -21.981165}
-  m_v3Dir: {x: 0.9376298, y: 0, z: -0.3476355}
-  m_fSpeed: 15
 --- !u!114 &2664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52152,12 +51862,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbcddd018eafea46e67642b4dea2392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 2
-  m_v3Dir: {x: 0, y: -0.21977392, z: 0.97555083}
-  m_fSpeed: 0.5
 --- !u!114 &2665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52169,13 +51873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 63.176426, y: 20, z: 8.439756}
-  m_v3Dir: {x: -0.757874, y: -0.056265768, z: -0.6499702}
-  m_fSpeed: 1
 --- !u!114 &2666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52187,13 +51884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 0.24392605, y: 18.202686, z: 42.215816}
-  m_v3Dir: {x: 0.5980337, y: -0.001027222, z: -0.8014707}
-  m_fSpeed: 1
 --- !u!114 &2667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52205,13 +51895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 14.600143, y: 20.008636, z: -7.149235}
-  m_v3Dir: {x: 0.6678271, y: -0.00029946747, z: -0.74431676}
-  m_fSpeed: 1
 --- !u!114 &2668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52223,12 +51906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52240,13 +51917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -62.834007, y: 21.854752, z: 38.294304}
-  m_v3Dir: {x: 0.828954, y: -0.1415562, z: -0.54110754}
-  m_fSpeed: 1
 --- !u!114 &2670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52258,12 +51928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52275,12 +51939,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52292,13 +51950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 17.037495, y: 17.537004, z: -62.815884}
-  m_v3Dir: {x: 0.6461088, y: -0.12963113, z: 0.7521564}
-  m_fSpeed: 1
 --- !u!114 &2673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52310,13 +51961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 56.703026, y: 16.884047, z: 29.129831}
-  m_v3Dir: {x: -0.78648627, y: -0.2423388, z: -0.568077}
-  m_fSpeed: 1
 --- !u!114 &2674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52328,13 +51972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -19.259773, y: 15, z: -63.71493}
-  m_v3Dir: {x: 0.47245592, y: 0.07650551, z: 0.8780275}
-  m_fSpeed: 1
 --- !u!114 &2675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52346,13 +51983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -100.33819, y: 0, z: -24.003885}
-  m_v3Dir: {x: 0.97123504, y: 0, z: 0.238123}
-  m_fSpeed: 15
 --- !u!114 &2676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52364,13 +51994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 13.298027, y: 16.84555, z: -0.20140839}
-  m_v3Dir: {x: 0.21239719, y: 0.5252069, z: -0.82404214}
-  m_fSpeed: 12
 --- !u!114 &2677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52382,13 +52005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 22.224144, y: 23.289835, z: -18.340313}
-  m_v3Dir: {x: -0.5406963, y: -0.3463468, z: 0.7666103}
-  m_fSpeed: 4
 --- !u!114 &2678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52400,13 +52016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 12.663849, y: 30.437689, z: -19.46809}
-  m_v3Dir: {x: 0.0058164913, y: -0.29642266, z: 0.95503914}
-  m_fSpeed: 4
 --- !u!114 &2679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52418,9 +52027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c80b6476ab5626bf41b2286cb85ba36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52432,23 +52038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ede6342318550d75e324a8dfb3b4a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_WrapMode: 0
-  m_bDrawGizmos: 0
-  m_GizmosColor: {r: 0.94990087, g: 1, b: 0.2835821, a: 1}
-  m_ltPoint:
-  - {fileID: 1043}
-  - {fileID: 1161}
-  - {fileID: 712}
-  - {fileID: 950}
-  - {fileID: 693}
-  - {fileID: 1121}
-  - {fileID: 1167}
-  - {fileID: 1182}
-  - {fileID: 869}
-  - {fileID: 1187}
 --- !u!114 &2681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52460,12 +52049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52477,11 +52060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 201f34b4ed853b84ecf85b723b499e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_arrSaveList: []
-  m_sSavePath: CfgTemp/WayPointConfig.xml
 --- !u!114 &2683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52493,9 +52071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c80b6476ab5626bf41b2286cb85ba36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52507,32 +52082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ede6342318550d75e324a8dfb3b4a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_WrapMode: 1
-  m_bDrawGizmos: 1
-  m_GizmosColor: {r: 0.9300699, g: 0, b: 1, a: 1}
-  m_ltPoint:
-  - {fileID: 1163}
-  - {fileID: 771}
-  - {fileID: 988}
-  - {fileID: 831}
-  - {fileID: 757}
-  - {fileID: 1181}
-  - {fileID: 1158}
-  - {fileID: 761}
-  - {fileID: 858}
-  - {fileID: 806}
-  - {fileID: 762}
-  - {fileID: 777}
-  - {fileID: 855}
-  - {fileID: 649}
-  - {fileID: 985}
-  - {fileID: 848}
-  - {fileID: 1194}
-  - {fileID: 802}
-  - {fileID: 1122}
 --- !u!114 &2685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52544,9 +52093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c80b6476ab5626bf41b2286cb85ba36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52558,31 +52104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ede6342318550d75e324a8dfb3b4a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_WrapMode: 1
-  m_bDrawGizmos: 1
-  m_GizmosColor: {r: 0, g: 1, b: 0.4545455, a: 1}
-  m_ltPoint:
-  - {fileID: 745}
-  - {fileID: 640}
-  - {fileID: 750}
-  - {fileID: 1049}
-  - {fileID: 1152}
-  - {fileID: 714}
-  - {fileID: 1067}
-  - {fileID: 1054}
-  - {fileID: 715}
-  - {fileID: 710}
-  - {fileID: 660}
-  - {fileID: 931}
-  - {fileID: 971}
-  - {fileID: 1154}
-  - {fileID: 854}
-  - {fileID: 760}
-  - {fileID: 764}
-  - {fileID: 743}
 --- !u!114 &2687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52594,13 +52115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -10.416574, y: 0, z: -22.924534}
-  m_v3Dir: {x: 0.94211894, y: 0, z: -0.33527863}
-  m_fSpeed: 12
 --- !u!114 &2688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52612,13 +52126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 40.16868, y: 20.29342, z: 17.019854}
-  m_v3Dir: {x: 0.19775644, y: -0.004362782, z: -0.98024166}
-  m_fSpeed: 1
 --- !u!114 &2689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52630,12 +52137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52647,13 +52148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 66.991394, y: 15, z: -32.099022}
-  m_v3Dir: {x: -0.6946796, y: -0.43849644, z: -0.5702117}
-  m_fSpeed: 1
 --- !u!114 &2691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52665,13 +52159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -15.982116, y: 20.356735, z: 58.219837}
-  m_v3Dir: {x: 0.37502208, y: 0.010929559, z: -0.9269514}
-  m_fSpeed: 1
 --- !u!114 &2692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52683,12 +52170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52700,13 +52181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 10.141117, y: 22.016638, z: -5.394207}
-  m_v3Dir: {x: 0.742805, y: 0.20803034, z: -0.636368}
-  m_fSpeed: 15
 --- !u!114 &2694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52718,12 +52192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbcddd018eafea46e67642b4dea2392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 2
-  m_v3Dir: {x: 0.8865381, y: -0.3568672, z: 0.29444188}
-  m_fSpeed: 0.5
 --- !u!114 &2695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52735,13 +52203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -31.650505, y: 19.626915, z: -27.149393}
-  m_v3Dir: {x: 0.98542774, y: 0.0047796452, z: -0.17002791}
-  m_fSpeed: 1
 --- !u!114 &2696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52753,13 +52214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -75.024635, y: 0, z: -17.797626}
-  m_v3Dir: {x: 0.80233693, y: 0, z: -0.5968715}
-  m_fSpeed: 15
 --- !u!114 &2697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52771,13 +52225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 37.240654, y: 20.207355, z: 4.7495737}
-  m_v3Dir: {x: 0.38231844, y: -0.0029722517, z: -0.9240263}
-  m_fSpeed: 1
 --- !u!114 &2698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52789,13 +52236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 3.4095368, y: 0, z: -27.844933}
-  m_v3Dir: {x: 0.99945647, y: 0, z: 0.03296715}
-  m_fSpeed: 10
 --- !u!114 &2699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52807,12 +52247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399551e6c7a7a9fe402556ff0a25d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  x: 1
-  y: 0
-  z: 1
 --- !u!114 &2700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52824,13 +52258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -55.386658, y: 21.42276, z: -19.372366}
-  m_v3Dir: {x: 0.96526676, y: 0.09344697, z: 0.24398299}
-  m_fSpeed: 1
 --- !u!114 &2701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52842,13 +52269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: -43.75296, y: 19.648464, z: -10.7949295}
-  m_v3Dir: {x: 0.9675757, y: 0.00421156, z: -0.25254673}
-  m_fSpeed: 1
 --- !u!114 &2702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52860,13 +52280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 9.640534, y: 0, z: -27.639402}
-  m_v3Dir: {x: 0.90400976, y: 0, z: 0.4275118}
-  m_fSpeed: 7
 --- !u!114 &2703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52878,13 +52291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 21.182045, y: 0, z: -20.635052}
-  m_v3Dir: {x: 0.6113238, y: 0, z: 0.7913806}
-  m_fSpeed: 3
 --- !u!114 &2704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52896,13 +52302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1622f36316bec2befb9d98132eee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_State: 1
-  m_v3Pos: {x: 31.885143, y: 18.394745, z: 43.616676}
-  m_v3Dir: {x: 0.17550474, y: -0.004516083, z: -0.9844686}
-  m_fSpeed: 1
 --- !u!1 &12526091
 GameObject:
   m_ObjectHideFlags: 0
@@ -53300,7 +52699,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33430577}
   m_LocalRotation: {x: 0.0003060001, y: -0.5171552, z: 0.008818002, w: -0.8558462}
-  m_LocalPosition: {x: -3.659502, y: -9999.613, z: 20.390747}
+  m_LocalPosition: {x: -3.18, y: 0.35, z: 18.862}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -53343,7 +52742,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 36856661}
   m_LocalRotation: {x: 0.0066820025, y: 0.99107534, z: -0.005761002, w: 0.13301106}
-  m_LocalPosition: {x: -10.27, y: -9999.52, z: 34.79}
+  m_LocalPosition: {x: -10.27, y: 0.35, z: 34.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -53978,7 +53377,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 86595501}
   m_LocalRotation: {x: 0.006681618, y: 0.99107534, z: -0.0057611666, w: 0.13301106}
-  m_LocalPosition: {x: 27.396, y: -9999.613, z: -4.371}
+  m_LocalPosition: {x: 27.396, y: 0.35, z: -4.371}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -55438,7 +54837,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 139956860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.734772, y: 6.5878906, z: -25.224773}
+  m_LocalPosition: {x: -11.734772, y: 3.08, z: -25.224773}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2008703519}
@@ -57858,7 +57257,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 246675972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92.7, y: 0, z: -97.1}
+  m_LocalPosition: {x: 92.7, y: 10000, z: -97.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315391245}
@@ -58035,7 +57434,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 273149351}
   m_LocalRotation: {x: 0.0003060001, y: -0.5171552, z: 0.008818002, w: -0.8558462}
-  m_LocalPosition: {x: -0.62121964, y: -9999.613, z: 14.606192}
+  m_LocalPosition: {x: -0.62121964, y: 0.35, z: 14.606192}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -58265,7 +57664,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 306251171}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6669922, z: -0.71673584}
+  m_LocalPosition: {x: 0, y: 0, z: -0.71673584}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 976013439}
@@ -60452,7 +59851,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 377096357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.7, y: 0, z: 99.9}
+  m_LocalPosition: {x: 94.7, y: 10000, z: 99.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315391245}
@@ -60789,7 +60188,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 398072854}
   m_LocalRotation: {x: -0.0038629987, y: 0.12456995, z: -0.007931997, w: 0.99217165}
-  m_LocalPosition: {x: -13.734693, y: -9999.613, z: 17.999912}
+  m_LocalPosition: {x: -13.734693, y: 0.35, z: 17.999912}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -63344,7 +62743,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 580662339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.23085, y: 0, z: -41.11806}
+  m_LocalPosition: {x: 36.23085, y: 0, z: -33.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1128979176}
@@ -65407,7 +64806,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 641486622}
   m_LocalRotation: {x: 0.00065199996, y: 0.60687697, z: -0.0087979995, w: 0.7947469}
-  m_LocalPosition: {x: -30.388954, y: -9999.613, z: 8.747807}
+  m_LocalPosition: {x: -30.388954, y: 0.35, z: 8.747807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -66233,7 +65632,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 715959690}
   m_LocalRotation: {x: 0.0006523416, y: 0.60687715, z: -0.008798265, w: 0.7947467}
-  m_LocalPosition: {x: -31.10347, y: -9999.613, z: 15.832672}
+  m_LocalPosition: {x: -31.10347, y: 0.35, z: 15.832672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -70032,8 +69431,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 998
-    height: 572
+    width: 947
+    height: 566
 --- !u!20 &976013441
 Camera:
   m_ObjectHideFlags: 0
@@ -70849,7 +70248,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1017737083}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -98.9, y: 0, z: 98.5}
+  m_LocalPosition: {x: -98.9, y: 10000, z: 98.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315391245}
@@ -73110,7 +72509,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1180953268}
   m_LocalRotation: {x: 0.0003055744, y: -0.51715505, z: 0.008817727, w: -0.8558463}
-  m_LocalPosition: {x: 3.3293018, y: -9999.613, z: 24.06273}
+  m_LocalPosition: {x: 3.3293018, y: 0.35, z: 24.06273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -77527,6 +76926,87 @@ Transform:
   m_Father: {fileID: 1643718536}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1407307618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1407307619}
+  - component: {fileID: 1407307622}
+  - component: {fileID: 1407307621}
+  - component: {fileID: 1407307620}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1407307619
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407307618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.69, y: 8.34, z: -12.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 603}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1407307620
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407307618}
+  m_Enabled: 1
+--- !u!124 &1407307621
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407307618}
+  m_Enabled: 1
+--- !u!20 &1407307622
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407307618}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1413942414
 GameObject:
   m_ObjectHideFlags: 0
@@ -77552,7 +77032,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1413942414}
   m_LocalRotation: {x: 0.0003060001, y: -0.5171552, z: 0.008818002, w: -0.8558462}
-  m_LocalPosition: {x: -8.096669, y: -9999.613, z: 10.678519}
+  m_LocalPosition: {x: -8.096669, y: 0.35, z: 10.678519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -78883,7 +78363,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486608570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.580845, y: 2.2841797, z: -66.492256}
+  m_LocalPosition: {x: -9.580845, y: 5638, z: -66.492256}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83340,7 +82820,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1739533633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -98.8, y: 0, z: -98}
+  m_LocalPosition: {x: -98.8, y: 10000, z: -98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315391245}
@@ -84665,7 +84145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: playerLogo_0
+  frameName: playerLogo_19
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0
@@ -85016,7 +84496,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1784166677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -6052.667, z: 42.716736}
+  m_LocalPosition: {x: 0, y: 41, z: 42.716736}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 640173392}
@@ -85859,6 +85339,87 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1809593310}
   m_Mesh: {fileID: 4300000, guid: bade72cdf38981d4480a0407af0b9053, type: 2}
+--- !u!1 &1820042000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1820042004}
+  - component: {fileID: 1820042003}
+  - component: {fileID: 1820042002}
+  - component: {fileID: 1820042001}
+  m_Layer: 0
+  m_Name: Camera (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1820042001
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820042000}
+  m_Enabled: 1
+--- !u!124 &1820042002
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820042000}
+  m_Enabled: 1
+--- !u!20 &1820042003
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820042000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: dfa07c425e2061547be86dbf23508984, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1820042004
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820042000}
+  m_LocalRotation: {x: 0.041342054, y: 0.9203976, z: -0.15548365, w: 0.3563482}
+  m_LocalPosition: {x: 9.84, y: 33.02, z: -3.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 18.402, y: 137.33101, z: -2.0960002}
 --- !u!1 &1820101971
 GameObject:
   m_ObjectHideFlags: 0
@@ -89034,7 +88595,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1959251117}
   m_LocalRotation: {x: -0.0038632224, y: 0.12457, z: -0.007931616, w: 0.99217165}
-  m_LocalPosition: {x: -16.35883, y: -9999.613, z: 7.7163563}
+  m_LocalPosition: {x: -16.35883, y: 0.35, z: 7.7163563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101378401}
@@ -89790,6 +89351,1403 @@ MonoBehaviour:
       size: {x: 12, y: 12}
       uv: {x: 0.9638672, y: 0.4873047, z: 0.9873047, w: 0.4638672}
   - textureFile: UI/GameUI/GameUI_2@2x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@12x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_29
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@11x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_28
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@10x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_27
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@9x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_26
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@8x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_25
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@7x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_24
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@6x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_23
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@5x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_22
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@4x
+    frames:
+    - frameName: RebirthHeart
+      size: {x: 60, y: 57}
+      uv: {x: 0.001953125, y: 0.99609375, z: 0.119140625, w: 0.7734375}
+    - frameName: RebirthHeartBK
+      size: {x: 60, y: 57}
+      uv: {x: 0.12207031, y: 0.99609375, z: 0.23925781, w: 0.7734375}
+    - frameName: playerLogo_16
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.99609375, z: 0.35546875, w: 0.8359375}
+    - frameName: playerLogo_15
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.99609375, z: 0.4716797, w: 0.8359375}
+    - frameName: playerLogo_18
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.99609375, z: 0.5878906, w: 0.8359375}
+    - frameName: playerLogo_17
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.99609375, z: 0.70410156, w: 0.8359375}
+    - frameName: playerLogo_14
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.99609375, z: 0.8203125, w: 0.8359375}
+    - frameName: playerLogo_11
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.99609375, z: 0.93652344, w: 0.8359375}
+    - frameName: playerLogo_10
+      size: {x: 58, y: 41}
+      uv: {x: 0.2421875, y: 0.8300781, z: 0.35546875, w: 0.6699219}
+    - frameName: playerLogo_13
+      size: {x: 58, y: 41}
+      uv: {x: 0.35839844, y: 0.8300781, z: 0.4716797, w: 0.6699219}
+    - frameName: playerLogo_12
+      size: {x: 58, y: 41}
+      uv: {x: 0.47460938, y: 0.8300781, z: 0.5878906, w: 0.6699219}
+    - frameName: playerLogo_8
+      size: {x: 58, y: 41}
+      uv: {x: 0.5908203, y: 0.8300781, z: 0.70410156, w: 0.6699219}
+    - frameName: playerLogo_7
+      size: {x: 58, y: 41}
+      uv: {x: 0.70703125, y: 0.8300781, z: 0.8203125, w: 0.6699219}
+    - frameName: playerLogo_1
+      size: {x: 58, y: 41}
+      uv: {x: 0.8232422, y: 0.8300781, z: 0.93652344, w: 0.6699219}
+    - frameName: playerLogo_9
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.7675781, z: 0.115234375, w: 0.6074219}
+    - frameName: playerLogo_6
+      size: {x: 58, y: 41}
+      uv: {x: 0.11816406, y: 0.7675781, z: 0.23144531, w: 0.6074219}
+    - frameName: playerLogo_3
+      size: {x: 58, y: 41}
+      uv: {x: 0.234375, y: 0.6640625, z: 0.34765625, w: 0.50390625}
+    - frameName: playerLogo_2
+      size: {x: 58, y: 41}
+      uv: {x: 0.35058594, y: 0.6640625, z: 0.4638672, w: 0.50390625}
+    - frameName: playerLogo_5
+      size: {x: 58, y: 41}
+      uv: {x: 0.46679688, y: 0.6640625, z: 0.5800781, w: 0.50390625}
+    - frameName: playerLogo_4
+      size: {x: 58, y: 41}
+      uv: {x: 0.5830078, y: 0.6640625, z: 0.69628906, w: 0.50390625}
+    - frameName: item_BigHp
+      size: {x: 55, y: 58}
+      uv: {x: 0.69921875, y: 0.6640625, z: 0.8066406, w: 0.4375}
+    - frameName: item_SmallHp
+      size: {x: 45, y: 58}
+      uv: {x: 0.8095703, y: 0.6640625, z: 0.89746094, w: 0.4375}
+    - frameName: playerLogo_0
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.6015625, z: 0.115234375, w: 0.44140625}
+    - frameName: playerLogo_19
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: playerLogo_21
+      size: {x: 58, y: 41}
+      uv: {x: 0.001953125, y: 0.2695313, z: 0.115234375, w: 0.1093751}
+    - frameName: item_Power
+      size: {x: 45, y: 57}
+      uv: {x: 0.9003906, y: 0.6640625, z: 0.98828125, w: 0.44140625}
+    - frameName: item_InstantStealth
+      size: {x: 45, y: 57}
+      uv: {x: 0.11816406, y: 0.6015625, z: 0.20605469, w: 0.37890625}
+    - frameName: item_Shield
+      size: {x: 45, y: 57}
+      uv: {x: 0.20898438, y: 0.49804688, z: 0.296875, w: 0.27539062}
+    - frameName: pause_p
+      size: {x: 52, y: 30}
+      uv: {x: 0.2998047, y: 0.49804688, z: 0.4013672, w: 0.38085938}
+    - frameName: Joystick_Move
+      size: {x: 46, y: 46}
+      uv: {x: 0.40429688, y: 0.49804688, z: 0.49414062, w: 0.31835938}
+    - frameName: help_2
+      size: {x: 44, y: 37}
+      uv: {x: 0.4970703, y: 0.49804688, z: 0.5830078, w: 0.35351562}
+    - frameName: help_1
+      size: {x: 44, y: 37}
+      uv: {x: 0.5859375, y: 0.49804688, z: 0.671875, w: 0.35351562}
+    - frameName: day_9
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.99609375, z: 0.9980469, w: 0.84765625}
+    - frameName: day_8
+      size: {x: 30, y: 38}
+      uv: {x: 0.9394531, y: 0.8417969, z: 0.9980469, w: 0.6933594}
+    - frameName: day_7
+      size: {x: 30, y: 38}
+      uv: {x: 0.001953125, y: 0.43554688, z: 0.060546875, w: 0.28710938}
+    - frameName: day_1
+      size: {x: 30, y: 38}
+      uv: {x: 0.9003906, y: 0.43554688, z: 0.9589844, w: 0.28710938}
+    - frameName: day_3
+      size: {x: 30, y: 38}
+      uv: {x: 0.6748047, y: 0.43164062, z: 0.73339844, w: 0.28320312}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.06347656, y: 0.43554688, z: 0.10644531, w: 0.33398438}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.7363281, y: 0.43164062, z: 0.7792969, w: 0.33007812}
+    - frameName: Bullet_SuicideGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.78222656, y: 0.43164062, z: 0.8251953, w: 0.33007812}
+    - frameName: Buff_InstantStealth
+      size: {x: 26, y: 26}
+      uv: {x: 0.828125, y: 0.43164062, z: 0.87890625, w: 0.33007812}
+    - frameName: Buff_Exp25
+      size: {x: 26, y: 26}
+      uv: {x: 0.2998047, y: 0.375, z: 0.35058594, w: 0.2734375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.35351562, y: 0.375, z: 0.39648438, w: 0.2734375}
+    - frameName: Buff_Exp15
+      size: {x: 26, y: 26}
+      uv: {x: 0.109375, y: 0.37304688, z: 0.16015625, w: 0.27148438}
+    - frameName: Buff_InstantSuper
+      size: {x: 26, y: 26}
+      uv: {x: 0.4970703, y: 0.34765625, z: 0.54785156, w: 0.24609375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.55078125, y: 0.34765625, z: 0.5996094, w: 0.25}
+  - textureFile: UI/GameUI/GameUI_2@3x
     frames:
     - frameName: RebirthHeart
       size: {x: 60, y: 57}
