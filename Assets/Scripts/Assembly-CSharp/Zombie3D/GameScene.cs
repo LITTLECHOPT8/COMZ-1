@@ -26,7 +26,7 @@ namespace Zombie3D
 		protected List<Vector3> sceneBorders = new List<Vector3>();
 
 		//public List<Player> m_multi_player_arr;
-//
+		//
 		//public List<Player> m_player_set;
 
 		public Enemy m_prey_enemy;
@@ -138,20 +138,20 @@ namespace Zombie3D
 		{
 			switch (m_type)
 			{
-			case "hp":
-				return Factor_EnemyHp;
-			case "damage":
-				return Factor_EnemyAttackDamage;
-			case "loot":
-				return Factor_EnemyLoot;
-			case "woodboxLoot":
-				if (GameApp.GetInstance().GetGameState().gameMode == GameMode.Vs)
-				{
+				case "hp":
+					return Factor_EnemyHp;
+				case "damage":
+					return Factor_EnemyAttackDamage;
+				case "loot":
+					return Factor_EnemyLoot;
+				case "woodboxLoot":
+					if (GameApp.GetInstance().GetGameState().gameMode == GameMode.Vs)
+					{
+						return 1f;
+					}
+					return Factor_WoodboxLoot;
+				default:
 					return 1f;
-				}
-				return Factor_WoodboxLoot;
-			default:
-				return 1f;
 			}
 		}
 
@@ -299,7 +299,7 @@ namespace Zombie3D
 			enemyObjectPool = new List<ObjectPool>();
 			if (!isDinoHunting)
 			{
-				for (int i = 0; i < 7; i++)
+				for (int i = 0; i < 8; i++)
 				{
 					enemyObjectPool.Add(new ObjectPool());
 					enemyObjectPool[i].Init("Pool_" + (EnemyType)i, GameApp.GetInstance().GetEnemyResourceConfig().enemy[i], 1, 0f);
@@ -316,11 +316,38 @@ namespace Zombie3D
 
 		public void InitEnemyPool(EnemyType mType)
 		{
-			if (mType < EnemyType.E_COUNT && mType > EnemyType.E_NONE)
+			// Ensure that mType is within the valid range of defined enemy types
+			if (mType > EnemyType.E_NONE && mType < EnemyType.E_COUNT)
 			{
-				enemyObjectPool = new List<ObjectPool>();
-				enemyObjectPool.Add(new ObjectPool());
-				enemyObjectPool[0].Init("Pool_" + mType, GameApp.GetInstance().GetEnemyResourceConfig().enemy[(int)mType], 1, 0f);
+				// Initialize the enemy object pool if it hasn't been initialized yet
+				if (enemyObjectPool == null)
+				{
+					enemyObjectPool = new List<ObjectPool>();
+				}
+
+				// Check if a pool for the given enemy type already exists
+				bool poolExists = false;
+				for (int i = 0; i < enemyObjectPool.Count; i++)
+				{
+					// If a pool already exists for this type, we reuse it
+					if (enemyObjectPool[i].Name == "Pool_" + mType)
+					{
+						poolExists = true;
+						break;
+					}
+				}
+
+				// If no pool exists for the enemy type, create and initialize one
+				if (!poolExists)
+				{
+					ObjectPool newPool = new ObjectPool();
+					newPool.Init("Pool_" + mType, GameApp.GetInstance().GetEnemyResourceConfig().enemy[(int)mType], 10, 30f);  // Example: 10 objects, 30f life span
+					enemyObjectPool.Add(newPool);
+				}
+			}
+			else
+			{
+				Debug.LogError("Invalid EnemyType provided.");
 			}
 		}
 

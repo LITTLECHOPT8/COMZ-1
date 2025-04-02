@@ -143,6 +143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 76}
   - component: {fileID: 232}
+  - component: {fileID: 222}
   m_Layer: 0
   m_Name: TUITexture
   m_TagString: Untagged
@@ -2146,7 +2147,7 @@ Camera:
   far clip plane: 128
   field of view: 60
   orthographic: 1
-  orthographic size: 320
+  orthographic size: 160
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -3956,6 +3957,735 @@ Behaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 15}
   m_Enabled: 1
+--- !u!114 &222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae4d7b04269dc9488d7c386b1dba295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: _Outer/UI/ShopMenuUI
+  hd: 1
+  atlasPath: UI/ShopMenuUI
+  atlasFile: ShopMenuUI
+  textureInfo:
+  - textureFile: UI/ShopMenuUI/ShopMenuUI
+    frames:
+    - frameName: fill_top1
+      size: {x: 481, y: 32}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.9433594, w: 0.93359375}
+    - frameName: fill_bottom1
+      size: {x: 480, y: 32}
+      uv: {x: 0.00390625, y: 0.9277344, z: 0.94140625, w: 0.8652344}
+    - frameName: CommonBK
+      size: {x: 480, y: 320}
+      uv: {x: 0.00390625, y: 0.859375, z: 0.94140625, w: 0.234375}
+    - frameName: side_bottom
+      size: {x: 250, y: 28}
+      uv: {x: 0.00390625, y: 0.22851562, z: 0.4921875, w: 0.17382812}
+    - frameName: side_top
+      size: {x: 250, y: 28}
+      uv: {x: 0.49804688, y: 0.22851562, z: 0.9863281, w: 0.17382812}
+    - frameName: side_middle
+      size: {x: 235, y: 14}
+      uv: {x: 0.00390625, y: 0.16796875, z: 0.46289062, w: 0.140625}
+    - frameName: money_background
+      size: {x: 228, y: 32}
+      uv: {x: 0.46875, y: 0.16796875, z: 0.9140625, w: 0.10546875}
+    - frameName: day_background
+      size: {x: 129, y: 28}
+      uv: {x: 0.00390625, y: 0.13476562, z: 0.25585938, w: 0.080078125}
+    - frameName: CommandButton_n
+      size: {x: 93, y: 32}
+      uv: {x: 0.26171875, y: 0.13476562, z: 0.44335938, w: 0.072265625}
+    - frameName: CommandButton_p
+      size: {x: 93, y: 32}
+      uv: {x: 0.44921875, y: 0.099609375, z: 0.6308594, w: 0.037109375}
+    - frameName: BackButton_p
+      size: {x: 65, y: 35}
+      uv: {x: 0.63671875, y: 0.099609375, z: 0.7636719, w: 0.03125}
+    - frameName: OpButton_p
+      size: {x: 65, y: 37}
+      uv: {x: 0.76953125, y: 0.099609375, z: 0.8964844, w: 0.02734375}
+    - frameName: BackButton_n
+      size: {x: 65, y: 35}
+      uv: {x: 0.00390625, y: 0.07421875, z: 0.13085938, w: 0.005859375}
+    - frameName: slider
+      size: {x: 5, y: 60}
+      uv: {x: 0.94921875, y: 0.99609375, z: 0.9589844, w: 0.87890625}
+    - frameName: money_more_n
+      size: {x: 50, y: 30}
+      uv: {x: 0.13671875, y: 0.07421875, z: 0.234375, w: 0.015625}
+    - frameName: money_more_p
+      size: {x: 50, y: 30}
+      uv: {x: 0.24023438, y: 0.06640625, z: 0.33789062, w: 0.0078125}
+    - frameName: new_background
+      size: {x: 41, y: 34}
+      uv: {x: 0.90234375, y: 0.099609375, z: 0.9824219, w: 0.033203125}
+    - frameName: fill_top2
+      size: {x: 32, y: 32}
+      uv: {x: 0.9199219, y: 0.16796875, z: 0.9824219, w: 0.10546875}
+    - frameName: fill_bottom2
+      size: {x: 32, y: 32}
+      uv: {x: 0.34375, y: 0.06640625, z: 0.40625, w: 0.00390625}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.8730469, z: 0.9902344, w: 0.8222656}
+    - frameName: Bullet_MachineGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.81640625, z: 0.9902344, w: 0.765625}
+    - frameName: Bullet_ShotGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.7597656, z: 0.9902344, w: 0.7089844}
+    - frameName: Bullet_AssaultRifle
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.703125, z: 0.9902344, w: 0.65234375}
+    - frameName: Bullet_Sniper
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.6464844, z: 0.9902344, w: 0.5957031}
+    - frameName: Bullet_M32
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.58984375, z: 0.9902344, w: 0.5390625}
+    - frameName: Bullet_Crossbow
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.5332031, z: 0.9902344, w: 0.48242188}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.4765625, z: 0.9902344, w: 0.42578125}
+    - frameName: Bullet_LaserGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.41992188, z: 0.9902344, w: 0.36914062}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9472656, y: 0.36328125, z: 0.9902344, w: 0.3125}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.9472656, y: 0.30664062, z: 0.99609375, w: 0.2578125}
+    - frameName: Mask
+      size: {x: 16, y: 16}
+      uv: {x: 0.96484375, y: 0.99609375, z: 0.99609375, w: 0.96484375}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_1
+    frames:
+    - frameName: fill_left
+      size: {x: 45, y: 320}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.091796875, w: 0.37109375}
+    - frameName: fill_right
+      size: {x: 45, y: 320}
+      uv: {x: 0.09765625, y: 0.99609375, z: 0.18554688, w: 0.37109375}
+    - frameName: Msg_box
+      size: {x: 225, y: 100}
+      uv: {x: 0.19140625, y: 0.99609375, z: 0.6308594, w: 0.80078125}
+    - frameName: description_background
+      size: {x: 205, y: 135}
+      uv: {x: 0.19140625, y: 0.7949219, z: 0.5917969, w: 0.53125}
+    - frameName: item_SuicideGun
+      size: {x: 108, y: 73}
+      uv: {x: 0.63671875, y: 0.99609375, z: 0.84765625, w: 0.8535156}
+    - frameName: item_InstantStealth
+      size: {x: 108, y: 73}
+      uv: {x: 0.63671875, y: 0.84765625, z: 0.84765625, w: 0.7050781}
+    - frameName: weapon_Winchester-1200
+      size: {x: 108, y: 73}
+      uv: {x: 0.59765625, y: 0.69921875, z: 0.80859375, w: 0.5566406}
+    - frameName: item_SmallHp
+      size: {x: 108, y: 73}
+      uv: {x: 0.59765625, y: 0.55078125, z: 0.80859375, w: 0.40820312}
+    - frameName: item_InstantSuper
+      size: {x: 108, y: 73}
+      uv: {x: 0.19140625, y: 0.5253906, z: 0.40234375, w: 0.3828125}
+    - frameName: item_FullRevive
+      size: {x: 108, y: 73}
+      uv: {x: 0.40820312, y: 0.40234375, z: 0.6191406, w: 0.25976562}
+    - frameName: weapon_XM-1014
+      size: {x: 108, y: 73}
+      uv: {x: 0.625, y: 0.40234375, z: 0.8359375, w: 0.25976562}
+    - frameName: item_Shield
+      size: {x: 108, y: 73}
+      uv: {x: 0.19140625, y: 0.37695312, z: 0.40234375, w: 0.234375}
+    - frameName: item_Power
+      size: {x: 108, y: 73}
+      uv: {x: 0.40820312, y: 0.25390625, z: 0.6191406, w: 0.111328125}
+    - frameName: item_Medpack
+      size: {x: 108, y: 73}
+      uv: {x: 0.625, y: 0.25390625, z: 0.8359375, w: 0.111328125}
+    - frameName: weapon_MP5
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.22851562, z: 0.21484375, w: 0.0859375}
+    - frameName: OpButton_n
+      size: {x: 65, y: 37}
+      uv: {x: 0.8535156, y: 0.99609375, z: 0.98046875, w: 0.9238281}
+    - frameName: Achi_Button_3
+      size: {x: 62, y: 53}
+      uv: {x: 0.8535156, y: 0.91796875, z: 0.9746094, w: 0.8144531}
+    - frameName: Achi_Button_1
+      size: {x: 62, y: 53}
+      uv: {x: 0.8535156, y: 0.80859375, z: 0.9746094, w: 0.7050781}
+    - frameName: Achi_Button_2
+      size: {x: 62, y: 53}
+      uv: {x: 0.8144531, y: 0.69921875, z: 0.9355469, w: 0.5957031}
+    - frameName: logo_locked
+      size: {x: 54, y: 48}
+      uv: {x: 0.8144531, y: 0.58984375, z: 0.9199219, w: 0.49609375}
+    - frameName: logo_equipped
+      size: {x: 54, y: 48}
+      uv: {x: 0.40820312, y: 0.5253906, z: 0.5136719, w: 0.43164062}
+    - frameName: new_1
+      size: {x: 41, y: 34}
+      uv: {x: 0.8144531, y: 0.49023438, z: 0.89453125, w: 0.42382812}
+    - frameName: new_2
+      size: {x: 41, y: 34}
+      uv: {x: 0.9003906, y: 0.49023438, z: 0.98046875, w: 0.42382812}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_2
+    frames:
+    - frameName: weapon_P90
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.21484375, w: 0.8535156}
+    - frameName: weapon_M4
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.99609375, z: 0.43164062, w: 0.8535156}
+    - frameName: weapon_Longinus-Silver
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.99609375, z: 0.6484375, w: 0.8535156}
+    - frameName: weapon_M32
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.99609375, z: 0.8652344, w: 0.8535156}
+    - frameName: weapon_Remington-870
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.84765625, z: 0.21484375, w: 0.7050781}
+    - frameName: weapon_RPG-7
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.84765625, z: 0.43164062, w: 0.7050781}
+    - frameName: weapon_Pixel-RPG
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.84765625, z: 0.6484375, w: 0.7050781}
+    - frameName: weapon_PGM
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.84765625, z: 0.8652344, w: 0.7050781}
+    - frameName: weapon_Pixel-Cannon
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.69921875, z: 0.21484375, w: 0.5566406}
+    - frameName: weapon_Longinus-Gold
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.69921875, z: 0.43164062, w: 0.5566406}
+    - frameName: weapon_Crossbow
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.69921875, z: 0.6484375, w: 0.5566406}
+    - frameName: weapon_Dragon-Breath
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.69921875, z: 0.8652344, w: 0.5566406}
+    - frameName: weapon_Chainsaw
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.55078125, z: 0.21484375, w: 0.40820312}
+    - frameName: weapon_AK-47
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.55078125, z: 0.43164062, w: 0.40820312}
+    - frameName: weapon_AUG
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.55078125, z: 0.6484375, w: 0.40820312}
+    - frameName: weapon_Laser
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.55078125, z: 0.8652344, w: 0.40820312}
+    - frameName: weapon_LightSword
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.40234375, z: 0.21484375, w: 0.25976562}
+    - frameName: weapon_Ion-Cannon
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.40234375, z: 0.43164062, w: 0.25976562}
+    - frameName: weapon_Flamethrower
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.40234375, z: 0.6484375, w: 0.25976562}
+    - frameName: weapon_Gatling
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.40234375, z: 0.8652344, w: 0.25976562}
+    - frameName: Avatar_13
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.25390625, z: 0.21484375, w: 0.111328125}
+    - frameName: Avatar_14
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.25390625, z: 0.43164062, w: 0.111328125}
+    - frameName: Avatar_15
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.25390625, z: 0.6484375, w: 0.111328125}
+    - frameName: Avatar_12
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.25390625, z: 0.8652344, w: 0.111328125}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_3
+    frames:
+    - frameName: Avatar_4
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.99609375, z: 0.21484375, w: 0.8535156}
+    - frameName: Avatar_5
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.99609375, z: 0.43164062, w: 0.8535156}
+    - frameName: Avatar_8
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.99609375, z: 0.6484375, w: 0.8535156}
+    - frameName: Avatar_9
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.99609375, z: 0.8652344, w: 0.8535156}
+    - frameName: Avatar_17
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.84765625, z: 0.21484375, w: 0.7050781}
+    - frameName: Avatar_6
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.84765625, z: 0.43164062, w: 0.7050781}
+    - frameName: Avatar_7
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.84765625, z: 0.6484375, w: 0.7050781}
+    - frameName: Avatar_16
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.84765625, z: 0.8652344, w: 0.7050781}
+    - frameName: chosen_frame
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.69921875, z: 0.21484375, w: 0.5566406}
+    - frameName: Avatar_2
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.69921875, z: 0.43164062, w: 0.5566406}
+    - frameName: Avatar_18
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.69921875, z: 0.6484375, w: 0.5566406}
+    - frameName: empty_button
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.69921875, z: 0.8652344, w: 0.5566406}
+    - frameName: item_BigHp
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.55078125, z: 0.21484375, w: 0.40820312}
+    - frameName: Avatar_10
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.55078125, z: 0.43164062, w: 0.40820312}
+    - frameName: Avatar_11
+      size: {x: 108, y: 73}
+      uv: {x: 0.4375, y: 0.55078125, z: 0.6484375, w: 0.40820312}
+    - frameName: Avatar_1
+      size: {x: 108, y: 73}
+      uv: {x: 0.6542969, y: 0.55078125, z: 0.8652344, w: 0.40820312}
+    - frameName: Avatar_3
+      size: {x: 108, y: 73}
+      uv: {x: 0.00390625, y: 0.40234375, z: 0.21484375, w: 0.25976562}
+    - frameName: Avatar_0
+      size: {x: 108, y: 73}
+      uv: {x: 0.22070312, y: 0.40234375, z: 0.43164062, w: 0.25976562}
+  textureInfoHD:
+  - textureFile: UI/ShopMenuUI/ShopMenuUI@2x
+    frames:
+    - frameName: fill_top1
+      size: {x: 481, y: 32}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.94140625, w: 0.9355469}
+    - frameName: fill_bottom1
+      size: {x: 480, y: 32}
+      uv: {x: 0.001953125, y: 0.9326172, z: 0.9394531, w: 0.8701172}
+    - frameName: CommonBK
+      size: {x: 480, y: 320}
+      uv: {x: 0.001953125, y: 0.8671875, z: 0.9394531, w: 0.2421875}
+    - frameName: side_bottom
+      size: {x: 250, y: 28}
+      uv: {x: 0.001953125, y: 0.23925781, z: 0.49023438, w: 0.18457031}
+    - frameName: side_top
+      size: {x: 250, y: 28}
+      uv: {x: 0.49316406, y: 0.23925781, z: 0.9814453, w: 0.18457031}
+    - frameName: side_middle
+      size: {x: 235, y: 14}
+      uv: {x: 0.001953125, y: 0.18164062, z: 0.4609375, w: 0.15429688}
+    - frameName: money_background
+      size: {x: 228, y: 32}
+      uv: {x: 0.4638672, y: 0.18164062, z: 0.9091797, w: 0.119140625}
+    - frameName: day_background
+      size: {x: 129, y: 28}
+      uv: {x: 0.001953125, y: 0.15136719, z: 0.25390625, w: 0.09667969}
+    - frameName: CommandButton_n
+      size: {x: 93, y: 32}
+      uv: {x: 0.25683594, y: 0.15136719, z: 0.43847656, w: 0.08886719}
+    - frameName: CommandButton_p
+      size: {x: 93, y: 32}
+      uv: {x: 0.44140625, y: 0.11621094, z: 0.6230469, w: 0.053710938}
+    - frameName: BackButton_p
+      size: {x: 65, y: 35}
+      uv: {x: 0.62597656, y: 0.11621094, z: 0.7529297, w: 0.047851562}
+    - frameName: OpButton_p
+      size: {x: 65, y: 37}
+      uv: {x: 0.7558594, y: 0.11621094, z: 0.8828125, w: 0.043945312}
+    - frameName: BackButton_n
+      size: {x: 65, y: 35}
+      uv: {x: 0.001953125, y: 0.09375, z: 0.12890625, w: 0.025390625}
+    - frameName: OpButton_n
+      size: {x: 65, y: 37}
+      uv: {x: 0.13183594, y: 0.0859375, z: 0.25878906, w: 0.013671875}
+    - frameName: slider
+      size: {x: 5, y: 60}
+      uv: {x: 0.94433594, y: 0.9980469, z: 0.95410156, w: 0.8808594}
+    - frameName: logo_locked
+      size: {x: 54, y: 48}
+      uv: {x: 0.8857422, y: 0.11621094, z: 0.99121094, w: 0.022460938}
+    - frameName: money_more_n
+      size: {x: 50, y: 30}
+      uv: {x: 0.26171875, y: 0.0859375, z: 0.359375, w: 0.02734375}
+    - frameName: fill_top2
+      size: {x: 32, y: 32}
+      uv: {x: 0.9121094, y: 0.18164062, z: 0.9746094, w: 0.119140625}
+    - frameName: fill_bottom2
+      size: {x: 32, y: 32}
+      uv: {x: 0.3623047, y: 0.0859375, z: 0.4248047, w: 0.0234375}
+    - frameName: Bullet_RocketLauncher
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.8779297, z: 0.98535156, w: 0.82714844}
+    - frameName: Bullet_MachineGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.82421875, z: 0.98535156, w: 0.7734375}
+    - frameName: Bullet_ShotGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.7705078, z: 0.98535156, w: 0.71972656}
+    - frameName: Bullet_AssaultRifle
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.7167969, z: 0.98535156, w: 0.6660156}
+    - frameName: Bullet_Sniper
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.66308594, z: 0.98535156, w: 0.6123047}
+    - frameName: Bullet_M32
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.609375, z: 0.98535156, w: 0.55859375}
+    - frameName: Bullet_Crossbow
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.55566406, z: 0.98535156, w: 0.5048828}
+    - frameName: Bullet_ElectricGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.5019531, z: 0.98535156, w: 0.45117188}
+    - frameName: Bullet_LaserGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.4482422, z: 0.98535156, w: 0.39746094}
+    - frameName: Bullet_FireGun
+      size: {x: 22, y: 26}
+      uv: {x: 0.9423828, y: 0.39453125, z: 0.98535156, w: 0.34375}
+    - frameName: money_crystal_label
+      size: {x: 25, y: 25}
+      uv: {x: 0.9423828, y: 0.3408203, z: 0.99121094, w: 0.2919922}
+    - frameName: Mask
+      size: {x: 16, y: 16}
+      uv: {x: 0.95703125, y: 0.9980469, z: 0.98828125, w: 0.9667969}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_1@2x
+    frames:
+    - frameName: fill_left
+      size: {x: 45, y: 320}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.08984375, w: 0.37304688}
+    - frameName: fill_right
+      size: {x: 45, y: 320}
+      uv: {x: 0.09277344, y: 0.9980469, z: 0.18066406, w: 0.37304688}
+    - frameName: Msg_box
+      size: {x: 225, y: 100}
+      uv: {x: 0.18359375, y: 0.9980469, z: 0.6230469, w: 0.8027344}
+    - frameName: description_background
+      size: {x: 205, y: 135}
+      uv: {x: 0.18359375, y: 0.7998047, z: 0.5839844, w: 0.5361328}
+    - frameName: item_SuicideGun
+      size: {x: 108, y: 73}
+      uv: {x: 0.62597656, y: 0.9980469, z: 0.83691406, w: 0.85546875}
+    - frameName: item_InstantStealth
+      size: {x: 108, y: 73}
+      uv: {x: 0.62597656, y: 0.85253906, z: 0.83691406, w: 0.70996094}
+    - frameName: weapon_Winchester-1200
+      size: {x: 108, y: 73}
+      uv: {x: 0.58691406, y: 0.70703125, z: 0.79785156, w: 0.5644531}
+    - frameName: item_SmallHp
+      size: {x: 108, y: 73}
+      uv: {x: 0.58691406, y: 0.56152344, z: 0.79785156, w: 0.4189453}
+    - frameName: item_InstantSuper
+      size: {x: 108, y: 73}
+      uv: {x: 0.18359375, y: 0.5332031, z: 0.39453125, w: 0.390625}
+    - frameName: item_FullRevive
+      size: {x: 108, y: 73}
+      uv: {x: 0.39746094, y: 0.41601562, z: 0.60839844, w: 0.2734375}
+    - frameName: weapon_XM-1014
+      size: {x: 108, y: 73}
+      uv: {x: 0.6113281, y: 0.41601562, z: 0.8222656, w: 0.2734375}
+    - frameName: item_Shield
+      size: {x: 108, y: 73}
+      uv: {x: 0.18359375, y: 0.3876953, z: 0.39453125, w: 0.24511719}
+    - frameName: item_Power
+      size: {x: 108, y: 73}
+      uv: {x: 0.39746094, y: 0.2705078, z: 0.60839844, w: 0.12792969}
+    - frameName: item_Medpack
+      size: {x: 108, y: 73}
+      uv: {x: 0.6113281, y: 0.2705078, z: 0.8222656, w: 0.12792969}
+    - frameName: weapon_MP5
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.2421875, z: 0.21289062, w: 0.099609375}
+    - frameName: Achi_Button_3
+      size: {x: 62, y: 53}
+      uv: {x: 0.83984375, y: 0.9980469, z: 0.9609375, w: 0.89453125}
+    - frameName: Achi_Button_1
+      size: {x: 62, y: 53}
+      uv: {x: 0.83984375, y: 0.89160156, z: 0.9609375, w: 0.78808594}
+    - frameName: Achi_Button_2
+      size: {x: 62, y: 53}
+      uv: {x: 0.83984375, y: 0.78515625, z: 0.9609375, w: 0.6816406}
+    - frameName: logo_equipped
+      size: {x: 54, y: 48}
+      uv: {x: 0.80078125, y: 0.67871094, z: 0.90625, w: 0.58496094}
+    - frameName: money_more_p
+      size: {x: 50, y: 30}
+      uv: {x: 0.80078125, y: 0.58203125, z: 0.8984375, w: 0.5234375}
+    - frameName: new_background
+      size: {x: 41, y: 34}
+      uv: {x: 0.9091797, y: 0.67871094, z: 0.9892578, w: 0.6123047}
+    - frameName: new_1
+      size: {x: 41, y: 34}
+      uv: {x: 0.9091797, y: 0.609375, z: 0.9892578, w: 0.54296875}
+    - frameName: new_2
+      size: {x: 41, y: 34}
+      uv: {x: 0.9013672, y: 0.54003906, z: 0.9814453, w: 0.4736328}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_2@2x
+    frames:
+    - frameName: weapon_P90
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.21289062, w: 0.85546875}
+    - frameName: weapon_M4
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.9980469, z: 0.4267578, w: 0.85546875}
+    - frameName: weapon_Longinus-Silver
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.9980469, z: 0.640625, w: 0.85546875}
+    - frameName: weapon_M32
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.9980469, z: 0.8544922, w: 0.85546875}
+    - frameName: weapon_Remington-870
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.85253906, z: 0.21289062, w: 0.70996094}
+    - frameName: weapon_RPG-7
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.85253906, z: 0.4267578, w: 0.70996094}
+    - frameName: weapon_Pixel-RPG
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.85253906, z: 0.640625, w: 0.70996094}
+    - frameName: weapon_PGM
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.85253906, z: 0.8544922, w: 0.70996094}
+    - frameName: weapon_Pixel-Cannon
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.70703125, z: 0.21289062, w: 0.5644531}
+    - frameName: weapon_Longinus-Gold
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.70703125, z: 0.4267578, w: 0.5644531}
+    - frameName: weapon_Crossbow
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.70703125, z: 0.640625, w: 0.5644531}
+    - frameName: weapon_Dragon-Breath
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.70703125, z: 0.8544922, w: 0.5644531}
+    - frameName: weapon_Chainsaw
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.56152344, z: 0.21289062, w: 0.4189453}
+    - frameName: weapon_AK-47
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.56152344, z: 0.4267578, w: 0.4189453}
+    - frameName: weapon_AUG
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.56152344, z: 0.640625, w: 0.4189453}
+    - frameName: weapon_Laser
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.56152344, z: 0.8544922, w: 0.4189453}
+    - frameName: weapon_LightSword
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.41601562, z: 0.21289062, w: 0.2734375}
+    - frameName: weapon_Ion-Cannon
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.41601562, z: 0.4267578, w: 0.2734375}
+    - frameName: weapon_Flamethrower
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.41601562, z: 0.640625, w: 0.2734375}
+    - frameName: weapon_Gatling
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.41601562, z: 0.8544922, w: 0.2734375}
+    - frameName: Avatar_13
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.2705078, z: 0.21289062, w: 0.12792969}
+    - frameName: Avatar_14
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.2705078, z: 0.4267578, w: 0.12792969}
+    - frameName: Avatar_15
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.2705078, z: 0.640625, w: 0.12792969}
+    - frameName: Avatar_12
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.2705078, z: 0.8544922, w: 0.12792969}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_3@2x
+    frames:
+    - frameName: Avatar_4
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.21289062, w: 0.85546875}
+    - frameName: Avatar_5
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.9980469, z: 0.4267578, w: 0.85546875}
+    - frameName: Avatar_8
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.9980469, z: 0.640625, w: 0.85546875}
+    - frameName: Avatar_9
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.9980469, z: 0.8544922, w: 0.85546875}
+    - frameName: Avatar_17
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.85253906, z: 0.21289062, w: 0.70996094}
+    - frameName: Avatar_6
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.85253906, z: 0.4267578, w: 0.70996094}
+    - frameName: Avatar_7
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.85253906, z: 0.640625, w: 0.70996094}
+    - frameName: Avatar_16
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.85253906, z: 0.8544922, w: 0.70996094}
+    - frameName: chosen_frame
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.70703125, z: 0.21289062, w: 0.5644531}
+    - frameName: Avatar_2
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.70703125, z: 0.4267578, w: 0.5644531}
+    - frameName: Avatar_18
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.70703125, z: 0.640625, w: 0.5644531}
+    - frameName: Avatar_19
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.4160157, z: 0.640625, w: 0.2734375}
+    - frameName: Avatar_24
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.1250001, z: 0.2128906, w: -0.00175781}
+    - frameName: Avatar_25
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.270508, z: 0.640625, w: 0.1279298}
+    - frameName: Avatar_28
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.1250003, z: 0.640625, w: -0.00175779}
+    - frameName: Avatar_22
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.4160157, z: 0.8544922, w: 0.2734375}
+    - frameName: Avatar_26
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.270508, z: 0.8544922, w: 0.1279298}
+    - frameName: Avatar_27
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.1250003, z: 0.8544922, w: -0.00175779}
+    - frameName: Avatar_20
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.2705077, z: 0.2128906, w: 0.1279296}
+    - frameName: Avatar_21
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.2705077, z: 0.4267578, w: 0.1279296}
+    - frameName: empty_button
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.70703125, z: 0.8544922, w: 0.5644531}
+    - frameName: item_BigHp
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.56152344, z: 0.21289062, w: 0.4189453}
+    - frameName: Avatar_10
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.56152344, z: 0.4267578, w: 0.4189453}
+    - frameName: Avatar_11
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.56152344, z: 0.640625, w: 0.4189453}
+    - frameName: Avatar_1
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.56152344, z: 0.8544922, w: 0.4189453}
+    - frameName: Avatar_3
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.41601562, z: 0.21289062, w: 0.2734375}
+    - frameName: Avatar_0
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.41601562, z: 0.4267578, w: 0.2734375}
+    - frameName: Avatar_23
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.1249999, z: 0.4267578, w: -0.0005781}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_3@3x
+    frames:
+    - frameName: Avatar_4
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.21289062, w: 0.85546875}
+    - frameName: Avatar_5
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.9980469, z: 0.4267578, w: 0.85546875}
+    - frameName: Avatar_8
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.9980469, z: 0.640625, w: 0.85546875}
+    - frameName: Avatar_9
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.9980469, z: 0.8544922, w: 0.85546875}
+    - frameName: Avatar_17
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.85253906, z: 0.21289062, w: 0.70996094}
+    - frameName: Avatar_6
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.85253906, z: 0.4267578, w: 0.70996094}
+    - frameName: Avatar_7
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.85253906, z: 0.640625, w: 0.70996094}
+    - frameName: Avatar_16
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.85253906, z: 0.8544922, w: 0.70996094}
+    - frameName: chosen_frame
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.70703125, z: 0.21289062, w: 0.5644531}
+    - frameName: Avatar_2
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.70703125, z: 0.4267578, w: 0.5644531}
+    - frameName: Avatar_18
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.70703125, z: 0.640625, w: 0.5644531}
+    - frameName: Avatar_19
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.4160157, z: 0.640625, w: 0.2734375}
+    - frameName: Avatar_24
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.1250001, z: 0.2128906, w: -0.00175781}
+    - frameName: Avatar_25
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.270508, z: 0.640625, w: 0.1279298}
+    - frameName: Avatar_28
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.1250003, z: 0.640625, w: -0.00175779}
+    - frameName: Avatar_22
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.4160157, z: 0.8544922, w: 0.2734375}
+    - frameName: Avatar_26
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.270508, z: 0.8544922, w: 0.1279298}
+    - frameName: Avatar_27
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.1250003, z: 0.8544922, w: -0.00175779}
+    - frameName: Avatar_29
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.1250003, z: 0.8544922, w: -0.00175779}
+    - frameName: Avatar_20
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.2705077, z: 0.2128906, w: 0.1279296}
+    - frameName: Avatar_21
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.2705077, z: 0.4267578, w: 0.1279296}
+    - frameName: empty_button
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.70703125, z: 0.8544922, w: 0.5644531}
+    - frameName: item_BigHp
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.56152344, z: 0.21289062, w: 0.4189453}
+    - frameName: Avatar_10
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.56152344, z: 0.4267578, w: 0.4189453}
+    - frameName: Avatar_11
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.56152344, z: 0.640625, w: 0.4189453}
+    - frameName: Avatar_1
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.56152344, z: 0.8544922, w: 0.4189453}
+    - frameName: Avatar_3
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.41601562, z: 0.21289062, w: 0.2734375}
+    - frameName: Avatar_0
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.41601562, z: 0.4267578, w: 0.2734375}
+    - frameName: Avatar_23
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.1249999, z: 0.4267578, w: -0.0005781}
+  material: {fileID: 2100000, guid: d6ac6bf9d70993b409b71878d9f12189, type: 2}
 --- !u!157 &223
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -7031,6 +7761,33 @@ MonoBehaviour:
     - frameName: Avatar_18
       size: {x: 108, y: 73}
       uv: {x: 0.4296875, y: 0.70703125, z: 0.640625, w: 0.5644531}
+    - frameName: Avatar_19
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.4160157, z: 0.640625, w: 0.2734375}
+    - frameName: Avatar_24
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.1250001, z: 0.2128906, w: -0.00175781}
+    - frameName: Avatar_25
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.270508, z: 0.640625, w: 0.1279298}
+    - frameName: Avatar_28
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.1250003, z: 0.640625, w: -0.00175779}
+    - frameName: Avatar_22
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.4160157, z: 0.8544922, w: 0.2734375}
+    - frameName: Avatar_26
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.270508, z: 0.8544922, w: 0.1279298}
+    - frameName: Avatar_27
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.1250003, z: 0.8544922, w: -0.00175779}
+    - frameName: Avatar_20
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.2705077, z: 0.2128906, w: 0.1279296}
+    - frameName: Avatar_21
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.2705077, z: 0.4267578, w: 0.1279296}
     - frameName: empty_button
       size: {x: 108, y: 73}
       uv: {x: 0.6435547, y: 0.70703125, z: 0.8544922, w: 0.5644531}
@@ -7043,9 +7800,6 @@ MonoBehaviour:
     - frameName: Avatar_11
       size: {x: 108, y: 73}
       uv: {x: 0.4296875, y: 0.56152344, z: 0.640625, w: 0.4189453}
-    - frameName: Avatar_19
-      size: {x: 108, y: 73}
-      uv: {x: 0.4296875, y: 0.4160156, z: 0.640625, w: 0.2734375}
     - frameName: Avatar_1
       size: {x: 108, y: 73}
       uv: {x: 0.6435547, y: 0.56152344, z: 0.8544922, w: 0.4189453}
@@ -7055,6 +7809,98 @@ MonoBehaviour:
     - frameName: Avatar_0
       size: {x: 108, y: 73}
       uv: {x: 0.21582031, y: 0.41601562, z: 0.4267578, w: 0.2734375}
+    - frameName: Avatar_23
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.1249999, z: 0.4267578, w: -0.0005781}
+  - textureFile: UI/ShopMenuUI/ShopMenuUI_3@3x
+    frames:
+    - frameName: Avatar_4
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.9980469, z: 0.21289062, w: 0.85546875}
+    - frameName: Avatar_5
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.9980469, z: 0.4267578, w: 0.85546875}
+    - frameName: Avatar_8
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.9980469, z: 0.640625, w: 0.85546875}
+    - frameName: Avatar_9
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.9980469, z: 0.8544922, w: 0.85546875}
+    - frameName: Avatar_17
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.85253906, z: 0.21289062, w: 0.70996094}
+    - frameName: Avatar_6
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.85253906, z: 0.4267578, w: 0.70996094}
+    - frameName: Avatar_7
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.85253906, z: 0.640625, w: 0.70996094}
+    - frameName: Avatar_16
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.85253906, z: 0.8544922, w: 0.70996094}
+    - frameName: chosen_frame
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.70703125, z: 0.21289062, w: 0.5644531}
+    - frameName: Avatar_2
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.70703125, z: 0.4267578, w: 0.5644531}
+    - frameName: Avatar_18
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.70703125, z: 0.640625, w: 0.5644531}
+    - frameName: Avatar_19
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.4160157, z: 0.640625, w: 0.2734375}
+    - frameName: Avatar_24
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.1250001, z: 0.2128906, w: -0.00175781}
+    - frameName: Avatar_25
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.270508, z: 0.640625, w: 0.1279298}
+    - frameName: Avatar_28
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.1250003, z: 0.640625, w: -0.00175779}
+    - frameName: Avatar_22
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.4160157, z: 0.8544922, w: 0.2734375}
+    - frameName: Avatar_26
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.270508, z: 0.8544922, w: 0.1279298}
+    - frameName: Avatar_27
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.1250003, z: 0.8544922, w: -0.00175779}
+    - frameName: Avatar_29
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.1250003, z: 0.8544922, w: -0.00175779}
+    - frameName: Avatar_20
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.2705077, z: 0.2128906, w: 0.1279296}
+    - frameName: Avatar_21
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.2705077, z: 0.4267578, w: 0.1279296}
+    - frameName: empty_button
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.70703125, z: 0.8544922, w: 0.5644531}
+    - frameName: item_BigHp
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.56152344, z: 0.21289062, w: 0.4189453}
+    - frameName: Avatar_10
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.56152344, z: 0.4267578, w: 0.4189453}
+    - frameName: Avatar_11
+      size: {x: 108, y: 73}
+      uv: {x: 0.4296875, y: 0.56152344, z: 0.640625, w: 0.4189453}
+    - frameName: Avatar_1
+      size: {x: 108, y: 73}
+      uv: {x: 0.6435547, y: 0.56152344, z: 0.8544922, w: 0.4189453}
+    - frameName: Avatar_3
+      size: {x: 108, y: 73}
+      uv: {x: 0.001953125, y: 0.41601562, z: 0.21289062, w: 0.2734375}
+    - frameName: Avatar_0
+      size: {x: 108, y: 73}
+      uv: {x: 0.21582031, y: 0.41601562, z: 0.4267578, w: 0.2734375}
+    - frameName: Avatar_23
+      size: {x: 108, y: 73}
+      uv: {x: 0.2158203, y: 0.1249999, z: 0.4267578, w: -0.0005781}
   material: {fileID: 2100000, guid: d6ac6bf9d70993b409b71878d9f12189, type: 2}
 --- !u!114 &233
 MonoBehaviour:
@@ -8301,10 +9147,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_viewRect:
     serializedVersion: 2
-    x: 800
-    y: 400
-    width: 960
-    height: 640
+    x: 0
+    y: 0
+    width: 956
+    height: 573
+  scrollSpeed: 0.05
+  snapThreshold: 100
+  snapSpeed: 5
 --- !u!114 &239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8647,7 +9496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: Achi_Button_3
+  frameName: Achi_Button_2
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0
@@ -8872,7 +9721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: Achi_Button_3
+  frameName: Achi_Button_2
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0

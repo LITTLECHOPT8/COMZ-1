@@ -3,7 +3,7 @@ using Zombie3D;
 
 public class EnemyConfigScript : MonoBehaviour
 {
-	public GameObject[] enemy = new GameObject[9];
+	public GameObject[] enemy = new GameObject[10];
 
 	public GameObject[] enemy_elite = new GameObject[9];
 
@@ -27,16 +27,16 @@ public class EnemyConfigScript : MonoBehaviour
 	{
 		switch (type)
 		{
-		case EnemyType.E_ZOMBIE:
-			return deadbody_zombie;
-		case EnemyType.E_NURSE:
-			return deadbody_nurse;
-		case EnemyType.E_BOOMER:
-			return deadbody_boomer;
-		case EnemyType.E_SWAT:
-			return deadbody_swat;
-		default:
-			return deadbody_zombie;
+			case EnemyType.E_ZOMBIE:
+				return deadbody_zombie;
+			case EnemyType.E_NURSE:
+				return deadbody_nurse;
+			case EnemyType.E_BOOMER:
+				return deadbody_boomer;
+			case EnemyType.E_SWAT:
+				return deadbody_swat;
+			default:
+				return deadbody_zombie;
 		}
 	}
 
@@ -44,16 +44,16 @@ public class EnemyConfigScript : MonoBehaviour
 	{
 		switch (type)
 		{
-		case EnemyType.E_ZOMBIE:
-			return deadhead_zombie;
-		case EnemyType.E_NURSE:
-			return deadhead_nurse;
-		case EnemyType.E_BOOMER:
-			return deadhead_boomer;
-		case EnemyType.E_SWAT:
-			return deadhead_swat;
-		default:
-			return deadhead_zombie;
+			case EnemyType.E_ZOMBIE:
+				return deadhead_zombie;
+			case EnemyType.E_NURSE:
+				return deadhead_nurse;
+			case EnemyType.E_BOOMER:
+				return deadhead_boomer;
+			case EnemyType.E_SWAT:
+				return deadhead_swat;
+			default:
+				return deadhead_zombie;
 		}
 	}
 }

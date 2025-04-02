@@ -280,7 +280,7 @@ namespace Zombie3D
 				animation.Stop();
 				animation.Play(animationName);
 			}
-			ServerEventSystem.Send(19, new object[] { name, animationName, wrapMode } );
+			ServerEventSystem.Send(19, new object[] { name, animationName, wrapMode });
 		}
 
 		public void SetInGrave(bool inGrave)
@@ -537,19 +537,19 @@ namespace Zombie3D
 				return;
 			}
 			int criticalAttack2 = (criticalAttack ? 1 : 0);
-			ServerEventSystem.Send(6, new object[] { name, dp.damage, weaponType, criticalAttack2 } );
+			ServerEventSystem.Send(6, new object[] { name, dp.damage, weaponType, criticalAttack2 });
 			if (mAttributes.Hp <= 0.0 && !is_multi_dead)
 			{
 				is_multi_dead = true;
 				if (mPlayer != null)
 				{
 					int bElite = (IsElite ? 1 : 0);
-					ServerEventSystem.Send(7, new object[] { name } );
+					ServerEventSystem.Send(7, new object[] { name });
 					is_multi_dead_killed = true;
 				}
 				else
 				{
-					ServerEventSystem.Send(8, new object[] { name } );
+					ServerEventSystem.Send(8, new object[] { name });
 					is_multi_dead_killed = false;
 				}
 			}
@@ -692,7 +692,7 @@ namespace Zombie3D
 					this.player = player;
 					lastTarget = this.player.GetTransform().position;
 					pathFinding.ClearPath();
-					ServerEventSystem.Send(14, new object[] { name, this.player.m_multi_id } );
+					ServerEventSystem.Send(14, new object[] { name, this.player.m_multi_id });
 					return true;
 				}
 			}

@@ -10,6 +10,7 @@ namespace Zombie3D
 		Hunting = 5,
 		Tutorial = 6,
 		Instance = 7,
-		DinoHunting = 8
+		DinoHunting = 8,
+		CoopSurvival = 9
 	}
 }

@@ -17,9 +17,9 @@ namespace Zombie3D
             }
         }
 
-        public const int SceneCount = 23;
+        public const int SceneCount = 24;
 
-        public const int SceneCountPixelVS = 23;
+        public const int SceneCountPixelVS = 24;
 
         public const string SCENE_ARENA = "Zombie3D_Arena";
 
@@ -34,6 +34,8 @@ namespace Zombie3D
         public const string SCENE_TEST = "Zombie3D_Test";
 
         public const string SCENE_DEPOT = "Zombie3D_Depot";
+
+        public const string SCENE_VILLAGENORMAL = "Zombie3D_Village_Normal";
 
         public const string SCENE_FunFair = "Zombie3D_FunFair";
 
@@ -125,6 +127,7 @@ namespace Zombie3D
                 case "Zombie3D_Depot":
                 case "Zombie3D_Airport":
                 case "Zombie3D_FunFair":
+                case "Zombie3D_Village_Normal":
                     return 5;
                 case "Zombie3D_Church":
                 case "Zombie3D_ParkingLot":
@@ -233,6 +236,8 @@ namespace Zombie3D
                     return 22;
                 case "Zombie3D_FunFair":  // Add your new map here
                     return 23;
+                case "Zombie3D_Village_Normal":  // Add your new map here
+                    return 24;
                 default:
                     return 0;
             }
@@ -313,6 +318,9 @@ namespace Zombie3D
                 case 23:  // Add your new map here
                     result = "Zombie3D_FunFair";  // Change this to your new map's name
                     break;
+                case 24:  // Add your new map here
+                    result = "Zombie3D_Village_Normal";  // Change this to your new map's name
+                    break;
             }
             return result;
         }
@@ -368,6 +376,8 @@ namespace Zombie3D
                     return "Airport";  // Replace with the actual name you'd like to display
                 case "Zombie3D_FunFair":  // Add your new map case here
                     return "FunFair";  // Replace with the actual name you'd like to display
+                case "Zombie3D_Village_Normal":  // Add your new map case here
+                    return "Dark Residental Area";  // Replace with the actual name you'd like to display
                 default:
                     return string.Empty;
             }
@@ -403,6 +413,8 @@ namespace Zombie3D
                 case "Zombie3D_Airport":  // Add your new map here
                     return new CoopBossType(EnemyType.E_ZOMBIE, true);  // Replace with the correct enemy type for your map
                 case "Zombie3D_FunFair":  // Add your new map here
+                    return new CoopBossType(EnemyType.E_ZOMBIE, true);  // Replace with the correct enemy type for your map
+                case "Zombie3D_Village_Normal":  // Add your new map here
                     return new CoopBossType(EnemyType.E_ZOMBIE, true);  // Replace with the correct enemy type for your map
                 default:
                     return null;
@@ -440,6 +452,8 @@ namespace Zombie3D
                     return 10000;  // Replace with the appropriate reward value for your map
                 case "Zombie3D_FunFair":
                     return 300000;
+                case "Zombie3D_Village_Normal":
+                    return 30000;
                 default:
                     return 0;
             }

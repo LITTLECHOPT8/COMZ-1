@@ -149,3 +149,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Zombie3D/Zombie3D_Airport.unity
     guid: 0fe2561d2f1a8cb4a8ed19d72c07038b
+  - enabled: 1
+    path: Assets/Scenes/Zombie3D/Zombie3D_Village_Normal.unity
+    guid: b00e7086b1176054dbcf5397a946a68a

@@ -15056,6 +15056,9 @@ MonoBehaviour:
     y: 0
     width: 956
     height: 573
+  scrollSpeed: 0.05
+  snapThreshold: 100
+  snapSpeed: 5
 --- !u!114 &541
 MonoBehaviour:
   m_ObjectHideFlags: 0

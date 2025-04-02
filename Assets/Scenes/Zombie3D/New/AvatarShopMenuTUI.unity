@@ -17037,7 +17037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: Achi_Button_1
+  frameName: Achi_Button_2
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0
@@ -17141,7 +17141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Static: 1
   material: {fileID: 0}
-  frameName: Achi_Button_1
+  frameName: Achi_Button_2
   color: {r: 1, g: 1, b: 1, a: 1}
   flipX: 0
   flipY: 0

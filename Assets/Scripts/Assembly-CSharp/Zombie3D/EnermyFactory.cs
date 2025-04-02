@@ -9,39 +9,39 @@ namespace Zombie3D
 			Enemy result = null;
 			switch (type)
 			{
-			case EnemyType.E_ZOMBIE:
-				result = new Zombie();
-				break;
-			case EnemyType.E_NURSE:
-				result = new Nurse();
-				break;
-			case EnemyType.E_TANK:
-				result = new Tank();
-				break;
-			case EnemyType.E_BOOMER:
-				result = new Boomer();
-				break;
-			case EnemyType.E_SWAT:
-				result = new Swat();
-				break;
-			case EnemyType.E_DOG:
-				result = new Dog();
-				break;
-			case EnemyType.E_POLICE:
-				result = new Police();
-				break;
-			case EnemyType.E_DILO:
-				result = new DiloDinosaur();
-				break;
-			case EnemyType.E_VELOCI:
-				result = new VelociDinosaur();
-				break;
-			case EnemyType.E_HELL_FIRER:
-				result = new HellFirer();
-				break;
-			case EnemyType.E_SUPER_DINO:
-				result = new SuperDinosaur();
-				break;
+				case EnemyType.E_ZOMBIE:
+					result = new Zombie();
+					break;
+				case EnemyType.E_NURSE:
+					result = new Nurse();
+					break;
+				case EnemyType.E_TANK:
+					result = new Tank();
+					break;
+				case EnemyType.E_BOOMER:
+					result = new Boomer();
+					break;
+				case EnemyType.E_SWAT:
+					result = new Swat();
+					break;
+				case EnemyType.E_DOG:
+					result = new Dog();
+					break;
+				case EnemyType.E_POLICE:
+					result = new Police();
+					break;
+				case EnemyType.E_DILO:
+					result = new DiloDinosaur();
+					break;
+				case EnemyType.E_VELOCI:
+					result = new VelociDinosaur();
+					break;
+				case EnemyType.E_HELL_FIRER:
+					result = new HellFirer();
+					break;
+				case EnemyType.E_SUPER_DINO:
+					result = new SuperDinosaur();
+					break;
 			}
 			return result;
 		}
@@ -123,7 +123,7 @@ namespace Zombie3D
 						component2.center = new Vector3(component2.center.x, component2.height / 2f, component2.center.z);
 					}
 				}
-				ServerEventSystem.Send(5, new object[] { gameObject2.name, id } );
+				ServerEventSystem.Send(5, new object[] { gameObject2.name, id });
 				gameObject2.name = "E_" + id;
 			}
 			Enemy enemy = CreateEnermyAvatar(enermyType);

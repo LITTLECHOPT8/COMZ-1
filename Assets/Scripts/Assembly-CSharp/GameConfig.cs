@@ -662,7 +662,7 @@ public class GameConfig
 			}
 			else if (reader.Name == "type")
 			{
-				for (int i = 1; i < 23; i++)
+				for (int i = 1; i < 16; i++)
 				{
 					if (((WeaponType)i).ToString() == reader.Value)
 					{

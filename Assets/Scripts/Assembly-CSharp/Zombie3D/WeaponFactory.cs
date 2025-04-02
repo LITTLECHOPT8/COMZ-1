@@ -25,7 +25,6 @@ namespace Zombie3D
                     case WeaponType.AssaultRifle:
                         result = new MultiAssaultRifle();
                         break;
-
                     case WeaponType.ShotGun:
                         result = new MultiShotGun();
                         break;
@@ -111,6 +110,7 @@ namespace Zombie3D
             }
             return result;
         }
+
 
         public GameObject CreateWeaponModel(string weaponName, Vector3 pos, Quaternion rotation)
         {
